@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Urbanist&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --text-shadow: text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --box-shadow-cards: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --color-cardbg-blue: #2F88FF;
+    --color-cardbg-orange: #F96435;
+    --color-cardbg-purple: #AE35F9;
+    --color-cardbg-green: #3B9D2C;
+    --color-cardbg-darkblue: #2C749D;
+    --color-cardbg-yellow: #B9890F;
+    --color-active-link: #C574F6;
+    --color-buttonbg: #922FDF;
+    --color-dividers: #A790CF;
+    --color-white: #FFFFFF;
+    --color-grey: #d9d9d9;
+    --color-inactive-buttonbg: #878585;
+    --color-black: #000000;
+}
+
+body {
+    background-image: url(../images/desktop/bg-orange-desktop.jpg);
+    background-size: 100% 100%;
+    font-family: 'Roboto', sans-serif;
+    // font-family: 'Urbanist', sans-serif;
+    min-height: 100vh;
+    color: var(--color-white);
+}
+
+/* Skip-to main tip from https://css-tricks.com/how-to-create-a-skip-to-content-link/#maincontent */
+.skip-link {
+    background: var(--color-black);
+    color: var(--color-white);    
+    left: 1%;
+    top: 10px;
+    padding: 4px;
+    border-radius: 0.4em;
+    border: 1px solid var(--color-white);
+    position: absolute;
+    transform: translateY(-200px);
+}
+  
+.skip-link:focus {
+    transform: translateY(0%);
+}
+
+#top {
+    display: none;
+}
+
+.header-wrapper {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__top, .navigation__footer {
+    ul {
+        display: flex;        
+        width: 100%;
+        margin-bottom: 5px;
+        justify-content: center;
+        padding: 0 10px;
+    }
+    .get-involved {
+        background-color: var(--color-buttonbg);
+        border-radius: 1em;
+    }
+    a {
+        display: flex;
+        justify-content: space-around;
+        color: var(--color-white);
+        font-size: 0.75rem;
+        align-items: center;
+        text-decoration: none;
+        width: 80px;
+        height: 20px;        
+    }
+    
+    li {
+        display: inline-flex;        
+    }
+}
+
+.nav__desktop {
+    display: none;
+    a {
+        display: none;
+    }
+}
+
+main {
+    min-height: 60vh;
+    display: flex;
+    flex-dire
+    justify-content: center;
+}
+.home__header {
+    display: block;
+    position: static;
+    justify-content: space-around;
+    text-align: center;
+    width: 360px;
+    // h1 {
+    //     width: 150px;
+    // }
+}
+.brand-new {
+position: relative;
+left: -100px;
+color: var(--color-dividers);
+}
+.interactive {
+position: relative;
+left: 0;
+color: var(--color-cardbg-blue);
+text-shadow: var(--text-shadow);
+}
+.ultramodern {
+position: relative;
+text-align: right;
+right: 100px;
+color: var(--color-active-link);
+text-shadow: var(--text-shadow);
+}
+
+@media screen and (min-width: 769px) {
+    .nav__desktop {
+        a {
+            display: flex;
+        }
+    }
+}
