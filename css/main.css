@@ -106,27 +106,6 @@ main {
   width: 100%;
 }
 
-.brand-new {
-  position: relative;
-  left: -100px;
-  color: var(--color-dividers);
-}
-
-.interactive {
-  position: relative;
-  left: 0;
-  color: var(--color-cardbg-blue);
-  text-shadow: var(--text-shadow);
-}
-
-.ultramodern {
-  position: relative;
-  text-align: right;
-  right: 100px;
-  color: var(--color-active-link);
-  text-shadow: var(--text-shadow);
-}
-
 @media screen and (min-width: 769px) {
   .nav__desktop a {
     display: flex;
