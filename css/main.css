@@ -24,7 +24,7 @@
 
 body {
   background-image: url(../images/mobile/bg-orange-mob.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
   color: var(--color-white);
