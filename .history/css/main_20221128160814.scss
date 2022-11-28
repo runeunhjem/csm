@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-.root {
+root {
     --box-shadow-cards: 0px 4px 4px rgba(0, 0, 0, 0.25);
     --color-cardbg-blue: #2F88FF;
     --color-cardbg-orange: #F96435;
@@ -29,7 +29,7 @@ body {
     font-family: 'Roboto', sans-serif;
     // font-family: 'Urbanist', sans-serif;
     min-height: 100vh;
-    color: var(--color-white);
+    color: var(--color-grey);
 }
 
 /* Skip-to main tip from https://css-tricks.com/how-to-create-a-skip-to-content-link/#maincontent */

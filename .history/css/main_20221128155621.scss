@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-.root {
+root {
     --box-shadow-cards: 0px 4px 4px rgba(0, 0, 0, 0.25);
     --color-cardbg-blue: #2F88FF;
     --color-cardbg-orange: #F96435;
@@ -17,35 +17,11 @@
     --color-active-link: #C574F6;
     --color-buttonbg: #922FDF;
     --color-dividers: #A790CF;
-    --color-white: #FFFFFF;
-    --color-grey: #d9d9d9;
-    --color-inactive-buttonbg: #878585;
-    --color-black: #000000;
+    
 }
-
 body {
     background-image: url(../images/mobile/bg-orange-mob.jpg);
     background-size: cover;
     font-family: 'Roboto', sans-serif;
     // font-family: 'Urbanist', sans-serif;
-    min-height: 100vh;
-    color: var(--color-white);
 }
-
-/* Skip-to main tip from https://css-tricks.com/how-to-create-a-skip-to-content-link/#maincontent */
-.skip-link {
-    background: var(--color-black);
-    color: var(--color-white);
-    // font-weight: 700;
-    left: 1%;
-    top: 10px;
-    padding: 4px;
-    border-radius: 0.4em;
-    border: 1px solid var(--color-white);
-    position: absolute;
-    transform: translateY(-200px);
-  }
-  
-  .skip-link:focus {
-    transform: translateY(0%);
-  }
