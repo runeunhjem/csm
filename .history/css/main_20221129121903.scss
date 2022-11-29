@@ -161,12 +161,9 @@ main {
 }
 
 @media screen and (min-width: 841px) {
-    .menu {
-        .nav__desktop {
+    .nav__desktop {
+        a {
             display: flex;
-            a {
-                display: flex;
-            }
         }
     }
     .header-wrapper {    

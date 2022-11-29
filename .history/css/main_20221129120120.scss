@@ -75,8 +75,9 @@ body {
 }
 
 .navigation__top, .navigation__footer {
-    
     ul {        
+        // position: absolute;
+        // right: 0px;
         display: flex;
         width: 100%;
         justify-content: space-evenly;
@@ -110,12 +111,10 @@ body {
 hr {
     display: None;
 }
-.menu {
-    .nav__desktop {
+.nav__desktop {
+    display: none;
+    a {
         display: none;
-        a {
-            display: none;
-        }
     }
 }
 .logo {
@@ -161,12 +160,9 @@ main {
 }
 
 @media screen and (min-width: 841px) {
-    .menu {
-        .nav__desktop {
+    .nav__desktop {
+        a {
             display: flex;
-            a {
-                display: flex;
-            }
         }
     }
     .header-wrapper {    

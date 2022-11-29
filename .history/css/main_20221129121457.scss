@@ -77,7 +77,7 @@ body {
 .navigation__top, .navigation__footer {
     
     ul {        
-        display: flex;
+        // display: flex;
         width: 100%;
         justify-content: space-evenly;
         height: 30px;
@@ -110,12 +110,10 @@ body {
 hr {
     display: None;
 }
-.menu {
-    .nav__desktop {
+.nav__desktop {
+    display: none;
+    a {
         display: none;
-        a {
-            display: none;
-        }
     }
 }
 .logo {
@@ -161,12 +159,9 @@ main {
 }
 
 @media screen and (min-width: 841px) {
-    .menu {
-        .nav__desktop {
+    .nav__desktop {
+        a {
             display: flex;
-            a {
-                display: flex;
-            }
         }
     }
     .header-wrapper {    

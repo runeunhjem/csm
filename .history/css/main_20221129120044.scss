@@ -75,13 +75,18 @@ body {
 }
 
 .navigation__top, .navigation__footer {
-    
     ul {        
+        // position: absolute;
+        // right: 0px;
         display: flex;
+        // margin: 0 auto;
         width: 100%;
         justify-content: space-evenly;
+        // width: 100%;
         height: 30px;
         text-align: center;
+        // margin-top: 1.4em;
+        // padding-bottom: 10px;
         align-items: center;
         border-bottom: 1px solid var(--color-white);
     }
@@ -110,12 +115,10 @@ body {
 hr {
     display: None;
 }
-.menu {
-    .nav__desktop {
+.nav__desktop {
+    display: none;
+    a {
         display: none;
-        a {
-            display: none;
-        }
     }
 }
 .logo {
@@ -161,12 +164,9 @@ main {
 }
 
 @media screen and (min-width: 841px) {
-    .menu {
-        .nav__desktop {
+    .nav__desktop {
+        a {
             display: flex;
-            a {
-                display: flex;
-            }
         }
     }
     .header-wrapper {    

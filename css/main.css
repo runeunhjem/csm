@@ -65,6 +65,8 @@ body {
   position: fixed;
   right: 1em;
   top: 1em;
+  cursor: pointer;
+  z-index: 100;
 }
 .header-wrapper .logo {
   margin: 5px 0 0 1em;
@@ -101,10 +103,10 @@ hr {
   display: None;
 }
 
-.nav__desktop {
+.menu .nav__desktop {
   display: none;
 }
-.nav__desktop a {
+.menu .nav__desktop a {
   display: none;
 }
 
@@ -149,8 +151,11 @@ main {
   text-align: center;
 }
 
-@media screen and (min-width: 1080px) {
-  .nav__desktop a {
+@media screen and (min-width: 841px) {
+  .menu .nav__desktop {
+    display: flex;
+  }
+  .menu .nav__desktop a {
     display: flex;
   }
   .header-wrapper {
@@ -163,7 +168,7 @@ main {
     right: 90px;
     display: flex;
     justify-content: space-between;
-    width: 650px;
+    width: 600px;
     height: 30px;
     margin-top: 1.4em;
     padding-bottom: 10px;
