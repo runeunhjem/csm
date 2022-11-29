@@ -24,6 +24,7 @@
 }
 
 body {
+  background-color: var(--color-black);
   background-image: url(../images/desktop/bg-orange-desktop.jpg);
   background-size: 100% 100%;
   font-family: "Roboto", sans-serif;
@@ -48,13 +49,15 @@ body {
   transform: translateY(0%);
 }
 
-#top {
-  display: none;
+.top-1px {
+  background-image: url(../images/mobile/img-top.png);
+  height: 1px;
+  width: 1px;
 }
 
 .header-wrapper {
   display: block;
-  height: 120px;
+  height: 7em;
 }
 .header-wrapper .menu-bars {
   width: 51px;
@@ -68,8 +71,13 @@ body {
 }
 
 .navigation__top ul, .navigation__footer ul {
+  display: flex;
   width: 100%;
+  justify-content: space-evenly;
+  height: 30px;
   text-align: center;
+  align-items: center;
+  border-bottom: 1px solid var(--color-white);
 }
 .navigation__top .get-involved, .navigation__footer .get-involved {
   background-color: var(--color-buttonbg);
@@ -79,7 +87,6 @@ body {
 }
 .navigation__top a, .navigation__footer a {
   display: flex;
-  justify-content: space-around;
   color: var(--color-white);
   font-size: 1rem;
   align-items: center;
@@ -88,6 +95,10 @@ body {
 .navigation__top li, .navigation__footer li {
   display: inline-flex;
   justify-content: center;
+}
+
+hr {
+  display: None;
 }
 
 .nav__desktop {
@@ -111,15 +122,31 @@ main {
 }
 
 .home__header {
-  margin-top: 1em;
   display: flex;
   justify-content: center;
   background-image: url(../images/mobile/title-text__home.svg);
   background-size: 308px 129px;
   background-repeat: no-repeat;
   background-position: center;
-  width: 350px;
+  width: 310px;
   height: 130px;
+}
+
+.navigation__footer ul {
+  border-top: 1px solid var(--color-white);
+  border-bottom: 0px;
+}
+.navigation__footer li {
+  height: 20px;
+  margin-top: 1em;
+}
+
+.back-to-top {
+  background-color: var(--color-buttonbg);
+  border-radius: 1em;
+  width: 100px;
+  height: 30px;
+  text-align: center;
 }
 
 @media screen and (min-width: 1080px) {
@@ -129,6 +156,7 @@ main {
   .header-wrapper {
     display: flex;
     width: 100%;
+    height: 60px;
   }
   .header-wrapper ul {
     position: absolute;

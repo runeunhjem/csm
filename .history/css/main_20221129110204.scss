@@ -59,7 +59,7 @@ body {
 
 .header-wrapper {    
     display: block;
-    height: 7em;
+    height: 120px;
     
     .menu-bars {        
         width: 51px;
@@ -73,7 +73,7 @@ body {
     }
 }
 
-.navigation__top, .navigation__footer {
+// .navigation__top, .navigation__footer {
     // display: flex;
     // justify-content: center;
     // ul {
@@ -120,7 +120,7 @@ body {
         display: inline-flex;
         justify-content: center;
     }
-}
+// }
 
 hr {
     display: None;
@@ -150,7 +150,7 @@ main {
     background-size: 308px 129px;
     background-repeat: no-repeat;
     background-position: center;
-    width: 310px;
+    width: 350px;
     height: 130px;
 }
 
