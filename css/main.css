@@ -67,13 +67,14 @@ body {
   margin: 5px 0 0 1em;
 }
 
-.navigation__top, .navigation__footer {
+.navigation__top ul, .navigation__footer ul {
+  width: 100%;
   text-align: center;
 }
 .navigation__top .get-involved, .navigation__footer .get-involved {
   background-color: var(--color-buttonbg);
   border-radius: 1em;
-  width: 120px;
+  width: 100px;
   text-align: center;
 }
 .navigation__top a, .navigation__footer a {
@@ -83,7 +84,6 @@ body {
   font-size: 1rem;
   align-items: center;
   text-decoration: none;
-  min-width: 80px;
 }
 .navigation__top li, .navigation__footer li {
   display: inline-flex;
@@ -122,8 +122,33 @@ main {
   height: 130px;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1080px) {
   .nav__desktop a {
     display: flex;
+  }
+  .header-wrapper {
+    display: flex;
+    width: 100%;
+  }
+  .header-wrapper ul {
+    position: absolute;
+    right: 90px;
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    height: 30px;
+    margin-top: 1.4em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-white);
+  }
+  .navigation__top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .home__header {
+    height: 200px;
+    width: 100%;
+    background-image: url(../images/desktop/title-text__home.svg);
+    background-size: 752px 183px;
   }
 }/*# sourceMappingURL=main.css.map */
