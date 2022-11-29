@@ -89,8 +89,12 @@ body {
 .navigation__top .get-involved, .navigation__footer .get-involved {
   background-color: var(--color-buttonbg);
   border-radius: 1em;
-  width: 100px;
+  width: 90px;
   text-align: center;
+}
+.navigation__top .get-involved a, .navigation__footer .get-involved a {
+  height: 1rem;
+  font-size: 0.8rem;
 }
 .navigation__top a, .navigation__footer a {
   display: flex;
@@ -135,21 +139,39 @@ main {
   height: 130px;
 }
 
+.navigation__footer {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
 .navigation__footer ul {
   border-top: 1px solid var(--color-white);
   border-bottom: 0px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 .navigation__footer li {
-  height: 20px;
   margin-top: 1em;
+  align-items: center;
+  display: flex;
+}
+.navigation__footer a {
+  display: flex;
+  align-items: center;
+  height: 40px;
 }
 
 .back-to-top {
   background-color: var(--color-buttonbg);
   border-radius: 1em;
-  width: 100px;
-  height: 30px;
+  width: 90px;
+  height: 20px;
   text-align: center;
+}
+.back-to-top a {
+  font-size: 0.8rem;
 }
 
 @media screen and (min-width: 841px) {

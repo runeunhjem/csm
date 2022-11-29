@@ -98,7 +98,7 @@ body {
         width: 90px;
         text-align: center;
         a {
-        height: 1rem;
+            height: 1rem;
         font-size: 0.8rem;
         }
     }
@@ -152,38 +152,23 @@ main {
 }
 
 .navigation__footer {
-    display: flex;
-    align-items: center;
-    height: 100px;
     ul {
         border-top: 1px solid var(--color-white);
         border-bottom: 0px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        width: 100%;
         // padding-top: 1em;
     }
     li {
         // height: 20px;
         margin-top: 1em;
-        align-items: center;
-        display: flex;
-    }
-    a {
-        display: flex;
-        align-items: center;
-        height: 40px;
     }
 }
 .back-to-top {
     background-color: var(--color-buttonbg);
     border-radius: 1em;
-    width: 90px;
+    width: 100px;
     height: 20px;
     text-align: center;
     a {
-        // height: 1rem;
         font-size: 0.8rem;
         }
 }
