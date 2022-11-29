@@ -75,10 +75,7 @@ body {
 }
 
 .active {
-    .active {
-    color: var(--color-active-link);
-    cursor: default;
-    }
+    color
 }
 
 .navigation__top, .navigation__footer {
@@ -181,7 +178,7 @@ main {
         height: 60px;
         ul {
             position: absolute;
-            right: 20px;
+            right: 90px;
             display: flex;
             justify-content: space-between;
             width: 600px;

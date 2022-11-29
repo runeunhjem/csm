@@ -28,7 +28,7 @@ body {
     background-color: var(--color-black);
     background-image: url(../images/desktop/bg-orange-desktop.jpg);
     background-size: 100% 100%;
-    font-family: 'Roboto', 'Urbanist', sans-serif;
+    font-family: 'Roboto', sans-serif;
     // font-family: 'Urbanist', sans-serif;
     min-height: 100vh;
     color: var(--color-white);
@@ -74,15 +74,8 @@ body {
     }
 }
 
-.active {
-    .active {
-    color: var(--color-active-link);
-    cursor: default;
-    }
-}
-
 .navigation__top, .navigation__footer {
-    // display: none;
+    display: 
     ul {        
         display: flex;
         width: 100%;
@@ -113,9 +106,7 @@ body {
         justify-content: center;
     }
 }
-// #togglemenu:checked ~ .navigation__top {
-//     display: block;
-// }
+
 .menu {
     .nav__desktop {
         display: none;
@@ -181,7 +172,7 @@ main {
         height: 60px;
         ul {
             position: absolute;
-            right: 20px;
+            right: 90px;
             display: flex;
             justify-content: space-between;
             width: 600px;

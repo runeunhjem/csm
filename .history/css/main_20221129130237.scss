@@ -74,15 +74,8 @@ body {
     }
 }
 
-.active {
-    .active {
-    color: var(--color-active-link);
-    cursor: default;
-    }
-}
-
 .navigation__top, .navigation__footer {
-    // display: none;
+    display: none;
     ul {        
         display: flex;
         width: 100%;
@@ -181,7 +174,7 @@ main {
         height: 60px;
         ul {
             position: absolute;
-            right: 20px;
+            right: 90px;
             display: flex;
             justify-content: space-between;
             width: 600px;

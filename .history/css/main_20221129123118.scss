@@ -28,7 +28,7 @@ body {
     background-color: var(--color-black);
     background-image: url(../images/desktop/bg-orange-desktop.jpg);
     background-size: 100% 100%;
-    font-family: 'Roboto', 'Urbanist', sans-serif;
+    font-family: 'Roboto', sans-serif;
     // font-family: 'Urbanist', sans-serif;
     min-height: 100vh;
     color: var(--color-white);
@@ -74,15 +74,8 @@ body {
     }
 }
 
-.active {
-    .active {
-    color: var(--color-active-link);
-    cursor: default;
-    }
-}
-
 .navigation__top, .navigation__footer {
-    // display: none;
+    
     ul {        
         display: flex;
         width: 100%;
@@ -113,9 +106,28 @@ body {
         justify-content: center;
     }
 }
-// #togglemenu:checked ~ .navigation__top {
-//     display: block;
-// }
+
+.menu-flyin {
+    display: none;
+    position: fixed;
+    width: 160px;
+    height: 340px;
+    top: 47px;
+    right: 6px;
+    margin: 0;
+    background-color: var(--color-black-90);
+    z-index: 999;
+    border: 1px solid var(--color-yellow-logo);
+    border-radius: 1em;
+  }
+  .menu-flyin .active {
+    height: 24px;
+    background-color: var(--color-grey-disabled);
+    border-radius: 0.4em;
+    cursor: default;
+    color: var(--color-yellow-logo);
+  }
+  
 .menu {
     .nav__desktop {
         display: none;
@@ -181,7 +193,7 @@ main {
         height: 60px;
         ul {
             position: absolute;
-            right: 20px;
+            right: 90px;
             display: flex;
             justify-content: space-between;
             width: 600px;

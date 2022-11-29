@@ -75,9 +75,8 @@ body {
 }
 
 .active {
-    .active {
+    a.active {
     color: var(--color-active-link);
-    cursor: default;
     }
 }
 
@@ -181,7 +180,7 @@ main {
         height: 60px;
         ul {
             position: absolute;
-            right: 20px;
+            right: 90px;
             display: flex;
             justify-content: space-between;
             width: 600px;
