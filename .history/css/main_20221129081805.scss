@@ -55,7 +55,7 @@ body {
 }
 
 .header-wrapper {    
-    display: block;
+    display: block;    
     height: 120px;
     .menu-bars {        
         width: 51px;
@@ -70,13 +70,12 @@ body {
 }
 
 .navigation__top, .navigation__footer {
-    // ul {
-    //     display: flex;
-    //     width: 100%;
-        text-align: center;
-    //     margin-bottom: 5px;
-    //     justify-content: space-around;
-    // }
+    ul {
+        display: flex;        
+        width: 100%;
+        margin-bottom: 5px;
+        justify-content: center;        
+    }
     .get-involved {
         background-color: var(--color-buttonbg);
         border-radius: 1em;
@@ -87,7 +86,7 @@ body {
         display: flex;
         justify-content: space-around;
         color: var(--color-white);
-        font-size: 1rem;
+        font-size: 1.2rem;
         align-items: center;
         text-decoration: none;
         min-width: 80px;
