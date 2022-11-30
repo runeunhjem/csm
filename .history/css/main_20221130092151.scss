@@ -151,13 +151,6 @@ main {
     height: 130px;
 }
 
-#cards {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1em;
-    gap: 1em;
-}
-
 .cards-home__desktop {
     width: 345px;
     height: 260px;    
@@ -265,14 +258,8 @@ main {
         }
 }
 
-@media screen and (min-width: 800px) {
-    #cards {
-        flex-direction: row;
-    }
-    .cards-home__desktop {
-        display: flex;
-    }
 
+@media screen and (min-width: 841px) {
     .menu {
         .nav__desktop {
             display: flex;

@@ -58,7 +58,7 @@ body {
 }
 
 .header-wrapper {    
-    display: block;
+    display: flex;    
     height: 7em;    
     .menu-bars {        
         width: 51px;
@@ -83,29 +83,41 @@ body {
 
 .navigation__top, .navigation__footer {
     // display: none;
-    ul {        
+    ul {
+        position: absolute;
+        right: 20px;
         display: flex;
-        width: 100%;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        width: 300px;
         height: 30px;
-        text-align: center;
-        align-items: center;
+        margin-top: 1.4em;
+        padding-bottom: 10px;
         border-bottom: 1px solid var(--color-white);
     }
+    // ul {        
+    //     display: flex;
+    //     width: 100%;
+    //     justify-content: space-evenly;
+    //     height: 30px;
+    //     text-align: center;
+    //     align-items: center;
+    //     border-bottom: 1px solid var(--color-white);
+    // }
     .get-involved {
         background-color: var(--color-buttonbg);
         border-radius: 1em;
         width: 90px;
         text-align: center;
         a {
-        height: 1rem;
+        height: 0.rem;
         font-size: 0.8rem;
         }
     }
     a {
         display: flex;        
         color: var(--color-white);
-        font-size: 1rem;
+        font-size: 0.8rem;
+        padding: 2px;
         align-items: center;
         text-decoration: none;
         // min-width: 80px;

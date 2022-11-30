@@ -58,7 +58,7 @@ body {
 }
 
 .header-wrapper {    
-    display: block;
+    display: flex;    
     height: 7em;    
     .menu-bars {        
         width: 51px;
@@ -105,7 +105,8 @@ body {
     a {
         display: flex;        
         color: var(--color-white);
-        font-size: 1rem;
+        font-size: 0.8rem;
+        padding
         align-items: center;
         text-decoration: none;
         // min-width: 80px;

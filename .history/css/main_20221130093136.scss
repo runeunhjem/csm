@@ -58,7 +58,8 @@ body {
 }
 
 .header-wrapper {    
-    display: block;
+    display: flex;
+    font-size: 0.5rem;;
     height: 7em;    
     .menu-bars {        
         width: 51px;
