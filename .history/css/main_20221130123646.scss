@@ -197,8 +197,6 @@ main {
 }
 
 .cards-home__title {
-    width: 215px;
-    padding: 0.8em;
     a {
         color: var(--color-white);
         text-decoration: none;
@@ -227,8 +225,9 @@ main {
         font-style: normal;
         font-weight: 700;
         line-height: 43px;
-        // letter-spacing: -0.04em;
+        letter-spacing: -0.04em;
     }
+    
 }
 
 .cards-home__desktop {

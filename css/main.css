@@ -61,6 +61,7 @@ body {
   position: sticky;
   top: -55px;
   bottom: 5px;
+  z-index: 100;
 }
 
 .header-wrapper {
@@ -173,11 +174,12 @@ main {
 .cards-home__image {
   width: 130px;
   height: 130px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .cards-home__title {
   width: 215px;
-  padding: 1em;
+  padding: 0.8em;
 }
 .cards-home__title a {
   color: var(--color-white);
@@ -186,7 +188,6 @@ main {
   align-items: center;
 }
 .cards-home__title .learn-more {
-  background-color: #000;
   font-size: 1.25rem;
   display: flex;
   justify-content: left;
@@ -207,7 +208,6 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 43px;
-  letter-spacing: -0.04em;
 }
 
 .cards-home__desktop {
