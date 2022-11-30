@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Urbanist&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Urbanist:ital,wght@0,400;0,700;1,700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,7 +27,7 @@ body {
   background-color: var(--color-black);
   background-image: url(../images/desktop/bg-orange-desktop.jpg);
   background-size: 100% 100%;
-  font-family: "Roboto", "Urbanist", sans-serif;
+  font-family: "Roboto", sans-serif;
   min-height: 100vh;
   color: var(--color-white);
 }
@@ -121,7 +121,7 @@ body {
 }
 
 main {
-  min-height: 60vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -137,6 +137,74 @@ main {
   background-position: center;
   width: 310px;
   height: 130px;
+}
+
+.cards-home__desktop {
+  width: 345px;
+  height: 260px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cards-home__mobile {
+  width: 345px;
+  height: 130px;
+  background-color: var(--color-cardbg-blue);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cards-home__top {
+  display: flex;
+}
+
+.cards-home__image {
+  width: 130px;
+  height: 130px;
+}
+
+.cards-home__title {
+  width: 215px;
+  padding: 1em;
+}
+.cards-home__title a {
+  color: var(--color-white);
+  text-decoration: none;
+  height: 40px;
+  align-items: center;
+}
+.cards-home__title .learn-more {
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: left;
+  height: 40px;
+  align-items: center;
+}
+.cards-home__title .learn-more:after {
+  content: url(../images/mobile/ico-chevron-right-white.svg);
+  align-items: center;
+  height: 40px;
+  display: flex;
+  position: relative;
+  top: 4px;
+}
+.cards-home__title h1 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+}
+
+.cards-home__desktop {
+  display: none;
+}
+
+.cards-home__info {
+  height: 130px;
+  width: 345px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 5px;
+  background-color: var(--color-cardbg-blue);
 }
 
 .navigation__footer {
