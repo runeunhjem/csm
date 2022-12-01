@@ -215,11 +215,15 @@ main {
     background-position: center;
     width: 100%;
     height: 130px;
-    transition: all 0.5s;
+    
 }
 
 .home__header:hover {
-        transform: scale(1.2);        
+        // transform: scale(1.2);
+    transform: matrix(1, 2, 3, 4, 1);
+      }
+      img {
+        transition: all 0.3s;
       }
 
 #cards {
@@ -471,6 +475,7 @@ footer {
         bottom: 5px;
     }
     .navigation__top {
+
         .visit {
             position: absolute;
             right: 120px;
@@ -482,12 +487,15 @@ footer {
             right: 0px;
             top: -30px;
             // background-color: var(--color-buttonbg);
-        }        
-        .get-involved:hover, .back-to-top:hover, .visit:hover {    
-            a {
-                color: var(--color-black);
-            }
         }
+        
+.get-involved:hover, .back-to-top:hover, .visit:hover {
+    // background-color: var(--color-white);    
+    // font-weight: 500;
+    a {
+        color: var(--color-black);
+    }
+}
     }
     #cards {
         max-width: 1200px;

@@ -215,12 +215,23 @@ main {
     background-position: center;
     width: 100%;
     height: 130px;
-    transition: all 0.5s;
-}
-
-.home__header:hover {
+    background-image:hover {
         transform: scale(1.2);        
       }
+      img {
+        transition: all 0.3s;
+      }
+}
+.home__header:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
+  }
 
 #cards {
     display: flex;
@@ -471,6 +482,7 @@ footer {
         bottom: 5px;
     }
     .navigation__top {
+
         .visit {
             position: absolute;
             right: 120px;
@@ -482,12 +494,15 @@ footer {
             right: 0px;
             top: -30px;
             // background-color: var(--color-buttonbg);
-        }        
-        .get-involved:hover, .back-to-top:hover, .visit:hover {    
-            a {
-                color: var(--color-black);
-            }
         }
+        
+.get-involved:hover, .back-to-top:hover, .visit:hover {
+    // background-color: var(--color-white);    
+    // font-weight: 500;
+    a {
+        color: var(--color-black);
+    }
+}
     }
     #cards {
         max-width: 1200px;

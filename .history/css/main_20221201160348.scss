@@ -219,8 +219,12 @@ main {
 }
 
 .home__header:hover {
-        transform: scale(1.2);        
+        transform: scale(1.2); 
+        
       }
+    //   img {
+    //     transition: all 0.3s;
+    //   }
 
 #cards {
     display: flex;
