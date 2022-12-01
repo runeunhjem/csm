@@ -411,7 +411,7 @@ footer {
 }
 .address::before {
     position: relative;
-    padding-right: 2px;
+    padding-right: px;
     top: 3px;    
     content: url(../images/mobile/ico-cellphone-maps.svg);
     
@@ -419,13 +419,13 @@ footer {
 
 .mail-address::before {
     position: relative;
-    padding-right: 4px;
+    padding-right: 10px;
     top: 3px;
     content: url(../images/mobile/ico-emailsvg.svg);
 }
 .phone-number::before {
     position: relative;
-    padding-right: 1px;
+    padding-right: 10px;
     top: 3px;
     content: url(../images/mobile/ico-phone.svg);
 }

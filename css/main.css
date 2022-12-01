@@ -393,7 +393,7 @@ footer {
 
 .address, .mail-address, .phone-number {
   display: flex;
-  height: 30px;
+  height: 24px;
   align-items: center;
   vertical-align: middle;
   font-size: 1.2rem;
@@ -401,21 +401,21 @@ footer {
 
 .address::before {
   position: relative;
-  padding-right: 10px;
+  padding-right: 2px;
   top: 3px;
   content: url(../images/mobile/ico-cellphone-maps.svg);
 }
 
 .mail-address::before {
   position: relative;
-  padding-right: 10px;
+  padding-right: 4px;
   top: 3px;
   content: url(../images/mobile/ico-emailsvg.svg);
 }
 
 .phone-number::before {
   position: relative;
-  padding-right: 10px;
+  padding-right: 1px;
   top: 3px;
   content: url(../images/mobile/ico-phone.svg);
 }
