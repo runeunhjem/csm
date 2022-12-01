@@ -21,6 +21,7 @@
   --color-grey: #d9d9d9;
   --color-inactive-buttonbg: #878585;
   --color-black: #000000;
+  --color-hover: #FFD600;
 }
 
 body {
@@ -90,28 +91,65 @@ body {
   cursor: default;
 }
 
+/* Radial Out - Tip from https://ianlunn.github.io/Hover/#effects */
+.hvr-radial-out {
+  transform: perspective(1px) translateZ(0);
+  overflow: hidden;
+  transition-property: color;
+  transition-duration: 0.3s;
+}
+
+.hvr-radial-out:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--color-hover);
+  border-radius: 1em;
+  transform: scale(0);
+  transition: transform 0.3s ease-out;
+}
+
+.hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
+  transform: scale(1);
+}
+
 .navigation__top ul, .navigation__footer ul {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 30px;
   text-align: center;
   align-items: center;
-  border-bottom: 1px solid var(--color-white);
+}
+.navigation__top .visit, .navigation__footer .visit {
+  position: absolute;
+  right: 115px;
+  top: 15px;
+  background-color: var(--color-cardbg-blue);
 }
 .navigation__top .get-involved, .navigation__footer .get-involved {
+  position: absolute;
+  right: 10px;
+  top: 15px;
   background-color: var(--color-buttonbg);
+}
+.navigation__top .get-involved, .navigation__top .visit, .navigation__footer .get-involved, .navigation__footer .visit {
   border-radius: 1em;
-  width: 90px;
+  width: 100px;
+  height: 24px;
   text-align: center;
 }
-.navigation__top .get-involved a, .navigation__footer .get-involved a {
-  font-size: 0.8rem;
+.navigation__top .get-involved a, .navigation__top .visit a, .navigation__footer .get-involved a, .navigation__footer .visit a {
+  font-size: 1rem;
 }
 .navigation__top a, .navigation__footer a {
   display: flex;
   color: var(--color-white);
-  font-size: 1rem;
+  font-size: 1.2rem;
   align-items: center;
   text-decoration: none;
 }
@@ -120,6 +158,9 @@ body {
   justify-content: center;
 }
 
+.menu {
+  border-bottom: 1px solid var(--color-white);
+}
 .menu .nav__desktop {
   display: none;
 }
@@ -248,7 +289,8 @@ main {
   width: 345px;
   font-size: 0.9rem;
   font-weight: 500;
-  padding: 5px;
+  padding: 2px 10px 0 10px;
+  line-height: 1.3rem;
 }
 
 .info-title {
@@ -313,22 +355,22 @@ footer {
   color: var(--color-active-link);
 }
 
-.get-involved:hover, .back-to-top:hover {
-  background-color: var(--color-white);
-  font-weight: 500;
+.get-involved:hover, .back-to-top:hover, .visit:hover {
+  transition: all 0.3s;
 }
-.get-involved:hover a, .back-to-top:hover a {
-  color: var(--color-active-link);
+.get-involved:hover a, .back-to-top:hover a, .visit:hover a {
+  color: var(--color-black);
 }
 
 .back-to-top {
   background-color: var(--color-buttonbg);
   border-radius: 1em;
-  width: 90px;
+  width: 100px;
+  height: 24px;
   text-align: center;
 }
 .back-to-top a {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .contact-info {
@@ -338,12 +380,44 @@ footer {
   padding: 5px;
 }
 
+.contact-info {
+  align-items: center;
+}
 .contact-info a {
   text-decoration: none;
   color: var(--color-white);
 }
 .contact-info a:hover {
   color: var(--color-active-link);
+}
+
+.address, .mail-address, .phone-number {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 1.2rem;
+}
+
+.address::before {
+  position: relative;
+  padding-right: 10px;
+  top: 3px;
+  content: url(../images/mobile/ico-cellphone-maps.svg);
+}
+
+.mail-address::before {
+  position: relative;
+  padding-right: 10px;
+  top: 3px;
+  content: url(../images/mobile/ico-emailsvg.svg);
+}
+
+.phone-number::before {
+  position: relative;
+  padding-right: 10px;
+  top: 3px;
+  content: url(../images/mobile/ico-phone.svg);
 }
 
 .social-media__icons {
@@ -354,7 +428,7 @@ footer {
 }
 .social-media__icons img {
   padding: 0 0.5em;
-  transition: all 0.3s;
+  transition: all 0.1s;
   color: var(--color-active-link);
 }
 
@@ -367,13 +441,30 @@ footer {
 }
 
 @media screen and (min-width: 800px) {
+  .logo {
+    position: absolute;
+    top: 10px;
+  }
   .container {
     background-color: var(--color-black);
     position: -webkit-sticky;
     position: sticky;
-    height: 60px;
+    height: 75px;
     top: 0px;
     bottom: 5px;
+  }
+  .navigation__top .visit {
+    position: absolute;
+    right: 120px;
+    top: -30px;
+  }
+  .navigation__top .get-involved {
+    position: absolute;
+    right: 0px;
+    top: -30px;
+  }
+  .navigation__top .get-involved:hover a, .navigation__top .back-to-top:hover a, .navigation__top .visit:hover a {
+    color: var(--color-black);
   }
   #cards {
     max-width: 1200px;
@@ -407,7 +498,7 @@ footer {
     justify-content: space-between;
     width: 600px;
     height: 30px;
-    margin-top: 1.4em;
+    margin-top: 2.4em;
     padding-bottom: 10px;
     border-bottom: 1px solid var(--color-white);
   }
