@@ -270,12 +270,6 @@ main {
         letter-spacing: -0.04em;
     }
 }
-.image__wrapper {
-    overflow: hidden;
-    height: 150px;
-    max-height: 150px;
-}
-
 .explore-together {
     text-align: center;
     margin: 1em auto;
@@ -588,7 +582,7 @@ footer {
     }
     .main__wrapper {
         width: 100%;
-        max-width: 1200px;
+        max-width: 690px;
     }
     #cards {
         max-width: 1200px;

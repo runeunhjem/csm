@@ -272,8 +272,7 @@ main {
 }
 .image__wrapper {
     overflow: hidden;
-    height: 150px;
-    max-height: 150px;
+    
 }
 
 .explore-together {
@@ -305,7 +304,6 @@ main {
     width: 345px;
     margin-bottom: 1em;
     background-position: center;
-    transition: all 0.3s;
 }
 .passion-image:hover {        
     transform: scale(1.2);

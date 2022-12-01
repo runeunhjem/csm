@@ -251,7 +251,8 @@ main {
     transform: scale(1.2);        
 }
 .main__wrapper {
-    width: 345px;    
+    width: 345px;
+    height:
     max-width: 345px;
     margin-top: 1.5em;
     display: flex;
@@ -270,12 +271,6 @@ main {
         letter-spacing: -0.04em;
     }
 }
-.image__wrapper {
-    overflow: hidden;
-    height: 150px;
-    max-height: 150px;
-}
-
 .explore-together {
     text-align: center;
     margin: 1em auto;
@@ -305,10 +300,6 @@ main {
     width: 345px;
     margin-bottom: 1em;
     background-position: center;
-    transition: all 0.3s;
-}
-.passion-image:hover {        
-    transform: scale(1.2);
 }
 .about-image {
     background-image: url(../images/mobile/img-passion-about-page.jpg);        
@@ -654,7 +645,9 @@ footer {
         max-height: 150px;
         transition: all 0.3s;
     }
-    
+    .passion-image:hover {        
+        transform: scale(1.2);
+    }
 
     .about-image {
         overflow: hidden;

@@ -248,11 +248,12 @@ main {
 
 .main__wrapper {
   width: 345px;
-  max-width: 1200px;
+  max-width: 345px;
   margin-top: 1.5em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 .main__wrapper h1 {
   font-family: "Urbanist";
@@ -262,6 +263,12 @@ main {
   line-height: 43px;
   text-align: center;
   letter-spacing: -0.04em;
+}
+
+.image__wrapper {
+  overflow: hidden;
+  height: 150px;
+  max-height: 150px;
 }
 
 .explore-together {
@@ -296,6 +303,11 @@ main {
   width: 345px;
   margin-bottom: 1em;
   background-position: center;
+  transition: all 0.3s;
+}
+
+.passion-image:hover {
+  transform: scale(1.2);
 }
 
 .about-image {
@@ -631,6 +643,23 @@ footer {
   .divider {
     background-image: url(../images/mobile/divider-light-purple.svg);
     width: 768px;
+  }
+  .passion-image {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-size: 690px 150px;
+    height: 150px;
+    width: 690px;
+    margin: 1em auto 2em auto;
+    background-position: center;
+    overflow: hidden;
+    max-width: 690px;
+    max-height: 150px;
+    transition: all 0.3s;
+  }
+  .about-image {
+    overflow: hidden;
+    max-width: 768px;
+    background-image: url(../images/desktop/img-passion-about-page.jpg);
   }
   .about-infotext {
     width: 768px;
