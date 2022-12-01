@@ -28,21 +28,27 @@ body {
   background-image: url(../images/desktop/bg-orange-desktop.jpg);
   background-size: 100% 100%;
   font-family: "Roboto", sans-serif;
+  /* For Headers: */
   min-height: 100vh;
   color: var(--color-white);
 }
 
 /* Skip-to main tip from https://css-tricks.com/how-to-create-a-skip-to-content-link/#maincontent */
 .skip-link {
-  background: var(--color-black);
+  background-color: var(--color-black);
   color: var(--color-white);
   left: 1%;
-  top: 10px;
+  top: 5px;
   padding: 4px;
+  height: 50px;
+  display: flex;
+  align-items: center;
   border-radius: 0.4em;
   border: 1px solid var(--color-white);
   position: absolute;
   transform: translateY(-200px);
+  z-index: 200;
+  text-decoration: none;
 }
 
 .skip-link:focus {
@@ -68,6 +74,9 @@ body {
 
 .header-wrapper {
   display: block;
+}
+.header-wrapper a:hover {
+  color: var(--color-active-link);
 }
 .header-wrapper .logo-link {
   position: relative;
@@ -157,6 +166,9 @@ main {
   margin: 1em auto;
   gap: 1em;
 }
+#cards a:hover {
+  transition: all 0.1s;
+}
 
 .cards-home__desktop {
   width: 345px;
@@ -204,6 +216,8 @@ main {
   justify-content: left;
   height: 40px;
   align-items: center;
+  transform: translateX(0px);
+  transition: all 0.2s;
 }
 .cards-home__title .learn-more:after {
   content: url(../images/mobile/ico-chevron-right-white.svg);
@@ -212,6 +226,10 @@ main {
   display: flex;
   position: relative;
   top: 4px;
+}
+.cards-home__title .learn-more:hover {
+  transform: translateX(14px);
+  transition: all 0.2s;
 }
 .cards-home__title h2 {
   font-family: "Urbanist", sans-serif;
@@ -291,6 +309,17 @@ footer {
   display: flex;
   align-items: center;
 }
+.navigation__footer a:hover {
+  color: var(--color-active-link);
+}
+
+.get-involved:hover, .back-to-top:hover {
+  background-color: var(--color-white);
+  font-weight: 500;
+}
+.get-involved:hover a, .back-to-top:hover a {
+  color: var(--color-active-link);
+}
 
 .back-to-top {
   background-color: var(--color-buttonbg);
@@ -307,6 +336,14 @@ footer {
   flex-direction: column;
   align-items: center;
   padding: 5px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+.contact-info a:hover {
+  color: var(--color-active-link);
 }
 
 .social-media__icons {
