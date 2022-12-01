@@ -270,7 +270,6 @@ main {
     background-color: var(--color-cardbg-yellow);
 }
 footer {
-    margin-top: 2em;
     display: block;
     justify-content: center;
     text-align: center;
@@ -283,7 +282,6 @@ footer {
     // height: 120px;
     border-top: 1px solid var(--color-white);
     ul {
-        margin-top: 0.5em;
         max-width: 350px;
         border-bottom: 0px;
         // height: 40px;
@@ -322,9 +320,6 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 5px;
-}
-.social-media__icons {
-    padding: 0.5em;
 }
 
 .copyright {

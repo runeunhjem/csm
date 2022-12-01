@@ -269,11 +269,9 @@ main {
 .schools {
     background-color: var(--color-cardbg-yellow);
 }
-footer {
-    margin-top: 2em;
-    display: block;
+.footer {
+    display: ;
     justify-content: center;
-    text-align: center;
 }
 
 .navigation__footer {
@@ -283,7 +281,6 @@ footer {
     // height: 120px;
     border-top: 1px solid var(--color-white);
     ul {
-        margin-top: 0.5em;
         max-width: 350px;
         border-bottom: 0px;
         // height: 40px;
@@ -322,19 +319,6 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 5px;
-}
-.social-media__icons {
-    padding: 0.5em;
-}
-
-.copyright {
-    // margin-top: 1em;
-    // height: 60px;
-    width: 100%;
-    font-size: 0.8rem;
-    align-items: center;
-    padding: 1em;
-    border-top: 1px solid var(--color-white);
 }
 
 @media screen and (min-width: 800px) {
