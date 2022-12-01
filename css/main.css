@@ -24,9 +24,44 @@
   --color-hover: #FFD600;
 }
 
+#index {
+  background-image: url(../images/desktop/bg-orange-desktop.jpg);
+}
+
+#about {
+  background-image: url(../images/desktop/bg-red-desktop.jpg);
+}
+
+#contact {
+  background-image: url(../images/desktop/bg-lilac-desktop.jpg);
+}
+
+#schools {
+  background-image: url(../images/desktop/bg-brown-desktop.jpg);
+}
+
+#exhibitions {
+  background-image: url(../images/desktop/bg-blue-desktop.jpg);
+}
+
+#events {
+  background-image: url(../images/desktop/bg-lilac-desktop.jpg);
+}
+
+#explore {
+  background-image: url(../images/desktop/bg-orange-desktop.jpg);
+}
+
+#visit {
+  background-image: url(../images/desktop/bg-green-desktop.jpg);
+}
+
+#getinvolved {
+  background-image: url(../images/desktop/bg-purple-desktop.jpg);
+}
+
 body {
   background-color: var(--color-black);
-  background-image: url(../images/desktop/bg-orange-desktop.jpg);
   background-size: 100% 100%;
   font-family: "Roboto", sans-serif;
   /* For Headers: */
@@ -99,7 +134,7 @@ body {
   height: 75px;
 }
 
-.active .active {
+#active {
   color: var(--color-active-link);
   cursor: default;
 }
