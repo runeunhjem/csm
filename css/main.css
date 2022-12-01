@@ -72,6 +72,7 @@ body {
 .header-wrapper .logo-link {
   position: relative;
   top: -5px;
+  left: 15px;
   font-size: 0em;
 }
 
@@ -174,9 +175,17 @@ main {
 }
 
 .cards-home__image {
+  max-width: 130px;
   width: 130px;
   height: 130px;
+  overflow: hidden;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.cards-home__image img:hover {
+  transform: scale(1.2);
+}
+.cards-home__image img {
+  transition: all 0.3s;
 }
 
 .cards-home__title {
@@ -222,6 +231,10 @@ main {
   font-size: 0.9rem;
   font-weight: 500;
   padding: 5px;
+}
+
+.info-title {
+  font-size: 1.2rem;
 }
 
 .exhibitions {
@@ -298,6 +311,14 @@ footer {
 
 .social-media__icons {
   padding: 0.5em;
+}
+.social-media__icons img:hover {
+  transform: scale(1.5);
+}
+.social-media__icons img {
+  padding: 0 0.5em;
+  transition: all 0.3s;
+  color: var(--color-active-link);
 }
 
 .copyright {

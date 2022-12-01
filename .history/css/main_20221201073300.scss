@@ -38,7 +38,13 @@ body {
     // font-family: 'Urbanist', sans-serif;
     min-height: 100vh;
     color: var(--color-white);
-    
+    img:hover {
+        transform: scale(1.1);
+        overflow: hidden;
+      }
+      img {
+        transition: all 0.3s;
+      }
 }
 
 /* Skip-to main tip from https://css-tricks.com/how-to-create-a-skip-to-content-link/#maincontent */
@@ -81,7 +87,6 @@ body {
     .logo-link {
         position: relative;
         top: -5px;
-        left: 15px;        
         font-size: 0em;
         // width: 50%;
         // height: 50%;
@@ -201,17 +206,9 @@ main {
 }
 
 .cards-home__image {
-    max-width: 130px;
     width: 130px;
     height: 130px;
-    overflow: hidden;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    img:hover {
-        transform: scale(1.2);        
-      }
-      img {
-        transition: all 0.3s;
-      }
 }
 
 .cards-home__title {
@@ -261,10 +258,6 @@ main {
     padding: 5px;
     // background-color: var(--color-cardbg-blue);
 }
-.info-title {
-    font-size: 1.2rem;
-}
-
 .exhibitions {
     background-color: var(--color-cardbg-blue);
 }
@@ -338,15 +331,7 @@ footer {
     padding: 5px;
 }
 .social-media__icons {
-    padding: 0.5em;    
-    img:hover {
-        transform: scale(1.5);        
-      }
-      img {
-        padding: 0 0.5em;
-        transition: all 0.3s;
-        color: var(--color-active-link);
-      }
+    padding: 0.5em;
 }
 
 .copyright {

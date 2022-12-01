@@ -81,7 +81,6 @@ body {
     .logo-link {
         position: relative;
         top: -5px;
-        left: 15px;        
         font-size: 0em;
         // width: 50%;
         // height: 50%;
@@ -261,10 +260,6 @@ main {
     padding: 5px;
     // background-color: var(--color-cardbg-blue);
 }
-.info-title {
-    font-size: 1.2rem;
-}
-
 .exhibitions {
     background-color: var(--color-cardbg-blue);
 }
@@ -338,7 +333,10 @@ footer {
     padding: 5px;
 }
 .social-media__icons {
-    padding: 0.5em;    
+    padding: 0.5em;
+    svg:hover {
+        fill: var(--color-active-link)
+    }
     img:hover {
         transform: scale(1.5);        
       }

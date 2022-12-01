@@ -80,7 +80,6 @@ body {
     
     .logo-link {
         position: relative;
-        top: -5px;
         left: 15px;        
         font-size: 0em;
         // width: 50%;
@@ -261,10 +260,6 @@ main {
     padding: 5px;
     // background-color: var(--color-cardbg-blue);
 }
-.info-title {
-    font-size: 1.2rem;
-}
-
 .exhibitions {
     background-color: var(--color-cardbg-blue);
 }
