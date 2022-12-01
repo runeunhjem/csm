@@ -9,11 +9,17 @@
 :root {
     --text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     --box-shadow-cards: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    // --color-cardbg-blue: #2F88FF;
     --color-cardbg-blue: #0052BD;
+    // --color-cardbg-orange: #F96435;
     --color-cardbg-orange: #A22A06;
+    // --color-cardbg-purple: #AE35F9;
     --color-cardbg-purple: #8306D0;
+    // --color-cardbg-green: #3B9D2C;
     --color-cardbg-green: #26631D;
+    // --color-cardbg-darkblue: #2C749D;
     --color-cardbg-darkblue: #245E7F;
+    // --color-cardbg-yellow: #B9890F;
     --color-cardbg-yellow: #725409;
     --color-active-link: #C574F6;
     --color-buttonbg: #922FDF;    
@@ -38,7 +44,7 @@ body {
 }
 
 /* Skip-to main tip from https://css-tricks.com/how-to-create-a-skip-to-content-link/#maincontent */
-/* Tab shortcut to skip to main content */
+/* Tab
 .skip-link {
     background-color: var(--color-black);
     color: var(--color-white);    

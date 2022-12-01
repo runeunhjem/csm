@@ -35,6 +35,7 @@ body {
 }
 
 /* Skip-to main tip from https://css-tricks.com/how-to-create-a-skip-to-content-link/#maincontent */
+/* Tab shortcut to skip to main content */
 .skip-link {
   background-color: var(--color-black);
   color: var(--color-white);
@@ -84,6 +85,18 @@ body {
   top: -5px;
   left: 5px;
   font-size: 0em;
+}
+
+.logo {
+  align-items: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: -15px;
+  height: 55px;
+  width: 141px;
+}
+.logo img {
+  height: 75px;
 }
 
 .active .active {
@@ -168,18 +181,7 @@ body {
   display: none;
 }
 
-.logo {
-  align-items: center;
-  -o-object-fit: cover;
-     object-fit: cover;
-  top: -15px;
-  height: 55px;
-  width: 141px;
-}
-.logo img {
-  height: 75px;
-}
-
+/* Main section */
 main {
   min-height: 100vh;
   display: flex;
@@ -209,6 +211,7 @@ main {
   transform: scale(1.2);
 }
 
+/* Main section | Cards */
 #cards {
   display: flex;
   flex-direction: column;
@@ -329,6 +332,7 @@ main {
   background-color: var(--color-cardbg-yellow);
 }
 
+/* Footer */
 footer {
   margin-top: 2em;
   display: block;
