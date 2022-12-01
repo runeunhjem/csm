@@ -395,6 +395,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 5px;
 }
 
 .contact-info {
@@ -409,16 +410,16 @@ footer {
     }
 }
 .address, .mail-address, .phone-number {
-    width: 270px;
+    width: 2
     display: flex;
-    height: 30px;
+    height: 24px;
     align-items: center;
     vertical-align: middle;
     font-size: 1.2rem;
 }
 .address::before {
     position: relative;
-    padding-right: 6px;
+    padding-right: 2px;
     top: 3px;    
     content: url(../images/mobile/ico-cellphone-maps.svg);
     
@@ -426,13 +427,13 @@ footer {
 
 .mail-address::before {
     position: relative;
-    padding-right: 6px;
+    padding-right: 4px;
     top: 3px;
     content: url(../images/mobile/ico-emailsvg.svg);
 }
 .phone-number::before {
     position: relative;
-    padding-right: 6px;
+    padding-right: 1px;
     top: 3px;
     content: url(../images/mobile/ico-phone.svg);
 }
