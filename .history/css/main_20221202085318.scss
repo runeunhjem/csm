@@ -343,9 +343,9 @@ main {
 /* Main section | Contact Page */
 .contact__wrapper {
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     max-width: 1200px;
-    margin: 2em auto;
+    margin-top: 2em;
     gap: 3em;
     align-items: center;
     justify-content: space-around;
@@ -411,7 +411,7 @@ main {
 .science {
     margin: 1em 0 0 0;
 }
-// .contact-card__text {
+.contact-card__text {
     .open-in-maps {
         display: flex;
         justify-content: left;
@@ -422,11 +422,7 @@ main {
         transform: translateX(1rem);
         // transition: all 0.2s;
     }
-    .open-in-maps:after {
-        content: url(../images/mobile/ico-map-marker-outline.svg);
-        margin-left: 10px;
-    }
-// }
+}
 
 /* Main section | Cards */
 #cards {
