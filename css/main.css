@@ -628,12 +628,11 @@ main {
 .exhibitions__bottom {
   display: flex;
   justify-content: flex-start;
-  width: 220px;
+  width: 200px;
 }
 .exhibitions__bottom p {
   font-style: italic;
-  padding: 0.5rem;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: 2rem;
   font-weight: 700;
   text-align: left;

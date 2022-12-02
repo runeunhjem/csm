@@ -600,17 +600,17 @@ main {
     height: 370px;
     p {
         font-size: 1.25rem;
-        padding: 0.5rem;
+        padding: 0.5rem 0 0.5rem 0.5rem;
     }
 }
 .exhibitions__bottom {
     display: flex;
     justify-content: flex-start;
-    width: 200px;
+    width: 220px;
     p {
         font-style: italic;
-        // padding: 0.5rem 0 0 0.5rem;
-        font-size: 1.20rem;
+        padding: 0.5rem;
+        font-size: 1.25rem;
         line-height: 2rem;
         font-weight: 700;
         text-align: left;
