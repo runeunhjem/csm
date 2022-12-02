@@ -323,6 +323,10 @@ main {
   background-image: url(../images/mobile/img-passion-contact-page.jpg);
 }
 
+.schools-image {
+  background-image: url(../images/mobile/img-passion-schools-page.jpg);
+}
+
 .divider {
   background-image: url(../images/mobile/divider-light-purple-short.svg);
   height: 5px;
@@ -330,7 +334,7 @@ main {
   margin: 1em auto;
 }
 
-.about-infotext p {
+.about-infotext p, .about-infotext h2 {
   line-height: 1.3rem;
   padding: 0.5em;
 }
@@ -747,5 +751,8 @@ a:hover {
   }
   .contact-image {
     background-image: url(../images/desktop/img-passion-contact-page.jpg);
+  }
+  .schools-image {
+    background-image: url(../images/desktop/img-passion-schools-page.jpg);
   }
 }/*# sourceMappingURL=main.css.map */

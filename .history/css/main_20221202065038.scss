@@ -331,7 +331,7 @@ main {
     margin: 1em auto;
 }
 .about-infotext {
-    p, h2 {
+    p {
         line-height: 1.3rem;
         padding: 0.5em;
     }
@@ -746,9 +746,9 @@ a:hover {
         width: 768px;
     }
     .contact-image {        
-        background-image: url(../images/desktop/img-passion-contact-page.jpg);
+        background-image: url(../images/desktop/img-passion-contact-page.jpg);        
     }
-    .schools-image {
-        background-image: url(../images/desktop/img-passion-schools-page.jpg);
+    .schools-image {        
+        background-image: url(../images/desktop/img-passion-contact-page.jpg);
     }
 }
