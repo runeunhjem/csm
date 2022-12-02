@@ -134,13 +134,12 @@ body {
     cursor: default;
     }
 
-.active {
-    .active {
-    color: var(--color-active-link);
-    cursor: default;
-    }
-}
-
+// .active {
+//     .active {
+//     color: var(--color-active-link);
+//     cursor: default;
+//     }
+// }
 /* Radial Out - Tip from https://ianlunn.github.io/Hover/#effects */
 .hvr-radial-out {
     transform: perspective(1px) translateZ(0);
@@ -675,7 +674,5 @@ footer {
     .about-infotext {
         width: 768px;
     }
-    .contact-image {        
-        background-image: url(../images/desktop/img-passion-contact-page.jpg);        
-    }
+    
 }

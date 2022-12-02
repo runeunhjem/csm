@@ -134,13 +134,12 @@ body {
     cursor: default;
     }
 
-.active {
-    .active {
-    color: var(--color-active-link);
-    cursor: default;
-    }
-}
-
+// .active {
+//     .active {
+//     color: var(--color-active-link);
+//     cursor: default;
+//     }
+// }
 /* Radial Out - Tip from https://ianlunn.github.io/Hover/#effects */
 .hvr-radial-out {
     transform: perspective(1px) translateZ(0);
@@ -275,7 +274,6 @@ main {
     overflow: hidden;
     height: 150px;
     max-height: 150px;
-    box-shadow: var(--box-shadow-cards);
 }
 .shadow {
     text-shadow: var(--text-shadow);
@@ -317,9 +315,6 @@ main {
 }
 .about-image {
     background-image: url(../images/mobile/img-passion-about-page.jpg);        
-}
-.contact-image {
-    background-image: url(../images/mobile/img-passion-contact-page.jpg);        
 }
 .divider {
     background-image: url(../images/mobile/divider-light-purple-short.svg);
@@ -650,12 +645,9 @@ footer {
         background-image: url(../images/mobile/divider-light-purple.svg);        
         width: 768px;        
     }
-    // .image__wrapper {
-    //     height: 150px;
-    //     max-width: 690px;
-    //     max-height: 150px;
-    //     overflow: hidden;
-    // }
+    .image-wrapper {
+        max-width: 690px;
+    }
     .passion-image {
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
         background-size: 690px 150px;
@@ -669,13 +661,13 @@ footer {
         transition: all 0.3s;
     }
     
-    .about-image {        
+
+    .about-image {
+        overflow: hidden;
+        max-width: 690px;
         background-image: url(../images/desktop/img-passion-about-page.jpg);        
     }
     .about-infotext {
         width: 768px;
-    }
-    .contact-image {        
-        background-image: url(../images/desktop/img-passion-contact-page.jpg);        
     }
 }
