@@ -570,11 +570,9 @@ main {
 }
 .card__vr, .card__vr-bottom {
     display: flex;
-    height: 130px;    
-}
-.card__exhibitions:hover {
-    text-shadow: 0px 4px 4px var(--color-black);
-    // opacity: 50%;
+    height: 130px;
+    :hover {
+        
 }
 .card__vr-bottom {
     width: 350px;

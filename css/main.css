@@ -591,6 +591,10 @@ main {
   height: 130px;
 }
 
+.card__exhibitions:hover {
+  text-shadow: 0px 4px 4px var(--color-black);
+}
+
 .card__vr-bottom {
   width: 350px;
   flex-direction: row-reverse;
