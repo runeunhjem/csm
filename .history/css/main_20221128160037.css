@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Urbanist&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+root {
+  --box-shadow-cards: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --color-cardbg-blue: #2F88FF;
+  --color-cardbg-orange: #F96435;
+  --color-cardbg-purple: #AE35F9;
+  --color-cardbg-green: #3B9D2C;
+  --color-cardbg-darkblue: #2C749D;
+  --color-cardbg-yellow: #B9890F;
+  --color-active-link: #C574F6;
+  --color-buttonbg: #922FDF;
+  --color-dividers: #A790CF;
+  --color-white: #FFFFFF;
+  --color-grey: #d9d9d9;
+  --color-inactive-buttonbg: #878585;
+  --color-black: # ;
+}
+
+body {
+  background-image: url(../images/mobile/bg-orange-mob.jpg);
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=main_20221128160037.css.map */
