@@ -41,19 +41,19 @@
 }
 
 #exhibitions {
-  background-image: url(../images/desktop/bg-blue-desktop.jpg);
-}
-
-#events {
   background-image: url(../images/desktop/bg-lilac-desktop.jpg);
 }
 
-#explore {
+#events {
   background-image: url(../images/desktop/bg-orange-desktop.jpg);
 }
 
-#visit {
+#explore {
   background-image: url(../images/desktop/bg-green-desktop.jpg);
+}
+
+#visit {
+  background-image: url(../images/desktop/bg-blue-desktop.jpg);
 }
 
 #getinvolved {
@@ -298,7 +298,6 @@ main {
   font-weight: 700;
   font-size: 1.5rem;
   color: var(--color-active-link);
-  margin: 0.5em auto;
 }
 
 .passion-image {
@@ -327,6 +326,10 @@ main {
   background-image: url(../images/mobile/img-passion-schools-page.jpg);
 }
 
+.visit-image {
+  background-image: url(../images/mobile/img-passion-visit-page.jpg);
+}
+
 .divider {
   background-image: url(../images/mobile/divider-light-purple-short.svg);
   height: 5px;
@@ -334,9 +337,9 @@ main {
   margin: 1em auto;
 }
 
-.about-infotext p, .about-infotext h2 {
+.about-infotext p, .about-infotext h2, .about-infotext h3 {
   line-height: 1.3rem;
-  padding: 0.5em;
+  padding: 0.5em 0 0 0.5em;
 }
 
 /* Main section | Contact Page */
@@ -399,6 +402,10 @@ main {
   background-image: url(../images/mobile/img-contact-address.png);
 }
 
+.img__maps {
+  background-image: url(../images/mobile/img-contact-maps.png);
+}
+
 .img__phone {
   background-image: url(../images/mobile/img-contact-phone.png);
 }
@@ -412,7 +419,17 @@ main {
 }
 
 .science {
-  margin: 2em 0 0 0;
+  margin: 1em 0 0 0;
+}
+
+.contact-card__text .open-in-maps {
+  display: flex;
+  justify-content: left;
+  transform: translateX(0px);
+  transition: all 0.2s;
+}
+.contact-card__text .open-in-maps:hover {
+  transform: translateX(1rem);
 }
 
 /* Main section | Cards */
@@ -474,6 +491,9 @@ main {
   align-items: center;
   transform: translateX(0px);
   transition: all 0.2s;
+}
+.cards-home__title a:hover {
+  color: var(--color-white);
 }
 .cards-home__title .learn-more:after {
   content: url(../images/mobile/ico-chevron-right-white.svg);
@@ -566,6 +586,24 @@ footer {
 .navigation__footer a {
   display: flex;
   align-items: center;
+}
+
+#visit .visit {
+  opacity: 60%;
+}
+#visit .visit a {
+  color: var(--color-white);
+  opacity: 80%;
+  font-weight: 500;
+}
+
+#getinvolved .getinvolved {
+  opacity: 60%;
+}
+#getinvolved .getinvolved a {
+  color: var(--color-white);
+  opacity: 80%;
+  font-weight: 500;
 }
 
 .get-involved:hover, .back-to-top:hover, .visit:hover {
@@ -754,5 +792,8 @@ a:hover {
   }
   .schools-image {
     background-image: url(../images/desktop/img-passion-schools-page.jpg);
+  }
+  .visit-image {
+    background-image: url(../images/desktop/img-passion-visit-page.jpg);
   }
 }/*# sourceMappingURL=main.css.map */
