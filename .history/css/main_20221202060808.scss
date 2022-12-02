@@ -363,10 +363,7 @@ main {
 .img__contact:hover {
     transform: rotate(360deg);        
   }
-.contact-headers {
-    opacity: 0;
-    z-index: -50;
-}
+
 .contact-card__text {
     display: flex;
     flex-direction: column;
@@ -395,10 +392,6 @@ main {
 }
 .img__open {
     background-image: url(../images/mobile/img-contact-open.png);
-}
-
-.science {
-    margin: 2em 0 0 0;
 }
 
 /* Main section | Cards */
@@ -663,7 +656,7 @@ a:hover {
     }
     .main__wrapper {
         width: 100%;
-        max-width: 800px;
+        max-width: 1200px;
     }
     #cards {
         max-width: 1200px;
