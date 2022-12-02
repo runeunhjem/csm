@@ -298,6 +298,7 @@ main {
   font-weight: 700;
   font-size: 1.5rem;
   color: var(--color-active-link);
+  margin: 1.5em 0 0.5em 0;
 }
 
 .passion-image {
@@ -341,20 +342,27 @@ main {
   margin: 1em auto;
 }
 
+.about-infotext p {
+  font-size: 1.25rem;
+}
 .about-infotext p, .about-infotext h2, .about-infotext h3 {
-  line-height: 1.3rem;
-  padding: 0.5em 0 0 0.5em;
+  line-height: 1.35rem;
+  padding: 1em 0 0 0.5em;
 }
 
 /* Main section | Contact Page */
-.contact__wrapper {
+.contact__wrapper, .exhibition__wrapper {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 2em auto;
   gap: 3em;
   align-items: center;
   justify-content: space-around;
+}
+
+.exhibition__wrapper {
+  max-width: 1200px;
 }
 
 .card__contact {
@@ -567,6 +575,115 @@ main {
   background-color: var(--color-cardbg-yellow);
 }
 
+/* Main section | Exhibitions */
+.card__exhibitions {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 670px;
+}
+.card__exhibitions .divider {
+  width: 350px;
+}
+
+.card__vr, .card__vr-bottom {
+  display: flex;
+  height: 130px;
+}
+
+.card__vr-bottom {
+  width: 350px;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 350px;
+}
+
+.exhibitions__title {
+  display: flex;
+  position: relative;
+  bottom: 10px;
+  align-items: center;
+  margin-left: 10px;
+  width: 200px;
+  text-align: center;
+}
+.exhibitions__title h2 {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.exhibitions__title .eco {
+  font-size: 2rem;
+}
+
+.exhibitions__text {
+  line-height: 1.4rem;
+  height: 370px;
+}
+.exhibitions__text p {
+  font-size: 1.25rem;
+  padding: 0.5rem;
+}
+
+.exhibitions__bottom {
+  display: flex;
+  justify-content: flex-start;
+  width: 220px;
+}
+.exhibitions__bottom p {
+  font-style: italic;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-align: left;
+  position: relative;
+}
+
+.img__vr {
+  background-image: url(../images/mobile/img-exhibitions-vr.png);
+}
+
+.img__space {
+  background-image: url(../images/mobile/img-exhibitions-space.png);
+}
+
+.img__dino {
+  background-image: url(../images/mobile/img-exhibitions-dino.png);
+}
+
+.img__eco {
+  background-image: url(../images/mobile/img-exhibitions-ecology.png);
+}
+
+.img__medicine {
+  background-image: url(../images/mobile/img-exhibitions-microscope.png);
+}
+
+.img__vr-bottom {
+  background-image: url(../images/mobile/img-exhibitions-robot.jpg);
+}
+
+.img__space-bottom {
+  background-image: url(../images/mobile/img-exhibitions-astronaut.jpg);
+}
+
+.img__dino-bottom {
+  background-image: url(../images/mobile/img-exhibitions-dino.jpg);
+}
+
+.img__eco-bottom {
+  background-image: url(../images/mobile/img-exhibitions-windmills.jpg);
+}
+
+.img__medicine-bottom {
+  background-image: url(../images/mobile/img-exhibitions-eye.jpg);
+}
+
+.moon-divider {
+  display: none;
+}
+
 /* Footer */
 footer {
   margin-top: 2em;
@@ -728,7 +845,7 @@ a:hover {
   }
   .main__wrapper {
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
   }
   #cards {
     max-width: 1200px;
@@ -779,6 +896,20 @@ a:hover {
   .divider {
     background-image: url(../images/mobile/divider-light-purple.svg);
     width: 768px;
+  }
+  .moon-divider {
+    display: flex;
+    margin: 0 auto;
+    height: 105px;
+    width: 768px;
+    max-width: 700px;
+    background-image: url(../images/desktop/moon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+  }
+  .moon-divider:hover {
+    transform: scale(1.2);
   }
   .passion-image {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
