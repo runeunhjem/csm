@@ -29,7 +29,8 @@
     background-image: url(../images/desktop/bg-orange-desktop.jpg);
 }
 #about {
-    background-image: url(../images/desktop/bg-red-desktop.jpg);    
+    background-image: url(../images/desktop/bg-red-desktop.jpg);
+    // background-image: url(../images/mobile/bg-red-mob.jpg);
 }
 #contact {
     background-image: url(../images/desktop/bg-lilac-desktop.jpg);
@@ -54,7 +55,8 @@
 }
 
 body {
-    background-color: var(--color-black);    
+    background-color: var(--color-black);
+    // background-image: url(../images/desktop/bg-orange-desktop.jpg);
     background-size: 100% 100%;
     font-family: 'Roboto', sans-serif;
     /* For Headers: */
@@ -104,7 +106,10 @@ body {
 }
 
 .header-wrapper {
-    display: block;
+    display: block;    
+    // a:hover {
+    //     color: var(--color-active-link);
+    // }
     .logo-link {
         position: relative;
         top: -5px;
@@ -155,7 +160,8 @@ body {
     border-radius: 1em;
     transform: scale(0);
     transition: transform 0.3s ease-out;    
-  }  
+  }
+  
   .hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {    
     transform: scale(1);
   }
@@ -168,19 +174,22 @@ body {
         height: 50px;
         text-align: center;
         align-items: center;
+        // border-bottom: 1px solid var(--color-white);
     }
     .visit {
         position: absolute;
         right: 110px;
         top: 15px;
         background-color: var(--color-cardbg-blue);
-    }    
+    }
+    
     .get-involved {
         position: absolute;
         right: 10px;
         top: 15px;
         background-color: var(--color-buttonbg);
     }
+
     .get-involved, .visit {        
         border-radius: 1em;
         width: 95px;
@@ -196,7 +205,8 @@ body {
         font-size: 1.2rem;
         align-items: center;
         text-decoration: none;  
-    }    
+    }
+    
     li {
         display: inline-flex;
         justify-content: center;
@@ -242,7 +252,6 @@ main {
 .home__header:hover {
     transform: scale(1.2);        
 }
-
 .main__wrapper {
     width: 345px;    
     max-width: 345px;
@@ -263,14 +272,12 @@ main {
         // letter-spacing: -0.04em;
     }
 }
-
 .image__wrapper {
     overflow: hidden;
     height: 150px;
     max-height: 150px;
     box-shadow: var(--box-shadow-cards);
 }
-
 .shadow {
     text-shadow: var(--text-shadow);
 }

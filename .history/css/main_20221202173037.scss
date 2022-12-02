@@ -29,7 +29,8 @@
     background-image: url(../images/desktop/bg-orange-desktop.jpg);
 }
 #about {
-    background-image: url(../images/desktop/bg-red-desktop.jpg);    
+    background-image: url(../images/desktop/bg-red-desktop.jpg);
+    // background-image: url(../images/mobile/bg-red-mob.jpg);
 }
 #contact {
     background-image: url(../images/desktop/bg-lilac-desktop.jpg);
@@ -54,7 +55,8 @@
 }
 
 body {
-    background-color: var(--color-black);    
+    background-color: var(--color-black);
+    // background-image: url(../images/desktop/bg-orange-desktop.jpg);
     background-size: 100% 100%;
     font-family: 'Roboto', sans-serif;
     /* For Headers: */
@@ -104,7 +106,10 @@ body {
 }
 
 .header-wrapper {
-    display: block;
+    display: block;    
+    // a:hover {
+    //     color: var(--color-active-link);
+    // }
     .logo-link {
         position: relative;
         top: -5px;
@@ -155,7 +160,8 @@ body {
     border-radius: 1em;
     transform: scale(0);
     transition: transform 0.3s ease-out;    
-  }  
+  }
+  
   .hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {    
     transform: scale(1);
   }
@@ -168,19 +174,22 @@ body {
         height: 50px;
         text-align: center;
         align-items: center;
+        // border-bottom: 1px solid var(--color-white);
     }
     .visit {
         position: absolute;
         right: 110px;
         top: 15px;
         background-color: var(--color-cardbg-blue);
-    }    
+    }
+    
     .get-involved {
         position: absolute;
         right: 10px;
         top: 15px;
         background-color: var(--color-buttonbg);
     }
+
     .get-involved, .visit {        
         border-radius: 1em;
         width: 95px;
@@ -196,7 +205,8 @@ body {
         font-size: 1.2rem;
         align-items: center;
         text-decoration: none;  
-    }    
+    }
+    
     li {
         display: inline-flex;
         justify-content: center;
@@ -242,7 +252,6 @@ main {
 .home__header:hover {
     transform: scale(1.2);        
 }
-
 .main__wrapper {
     width: 345px;    
     max-width: 345px;
@@ -263,14 +272,12 @@ main {
         // letter-spacing: -0.04em;
     }
 }
-
 .image__wrapper {
     overflow: hidden;
     height: 150px;
     max-height: 150px;
     box-shadow: var(--box-shadow-cards);
 }
-
 .shadow {
     text-shadow: var(--text-shadow);
 }
@@ -309,7 +316,6 @@ main {
 .passion-image:hover {        
     transform: scale(1.2);
 }
-
 .about-image {
     background-image: url(../images/mobile/img-passion-about-page.jpg);
 }
@@ -325,14 +331,12 @@ main {
 .exhibitions-image {
     background-image: url(../images/mobile/img-passion-exhibitions-page.jpg);
 }
-
 .divider {
     background-image: url(../images/mobile/divider-light-purple-short.svg);
     height: 5px;
     width: 345px;
     margin: 1em auto;
 }
-
 .about-infotext {
     p {
         font-size: 1.25rem;
@@ -342,7 +346,6 @@ main {
         padding: 1em 0 0 0.5em;
     }
 }
-
 /* Main section | Contact Page */
 .contact__wrapper, .exhibition__wrapper {
     display: flex;
@@ -353,11 +356,9 @@ main {
     align-items: center;
     justify-content: space-around;
 }
-
 .exhibition__wrapper {
     max-width: 1200px;
 }
-
 .card__contact {
     display: flex;
     justify-content: space-around;
@@ -365,7 +366,6 @@ main {
     height: 130px;
     overflow: hidden;    
 }
-
 .img__contact {    
     border-radius: 50%;
     background-size: 100%;
@@ -380,12 +380,10 @@ main {
 .img__contact:hover {
     transform: rotate(360deg);        
   }
-
 .contact-headers {
     opacity: 0;
     z-index: -50;
 }
-
 .contact-card__text {
     display: flex;
     flex-direction: column;
@@ -395,6 +393,7 @@ main {
     .divider {
         background-image: url(../images/mobile/divider-light-purple-shortest.svg);
         width: 200px;
+        // height: 5px;
         background-size: cover;
         margin: 0;
     }   
@@ -421,22 +420,22 @@ main {
 .science {
     margin: 1em 0 0 0;
 }
-
-.open-in-maps {
-    display: flex;
-    justify-content: left;
-    transform: translateX(0px);
-    transition: all 0.2s;
-}
-.open-in-maps:hover {
-    transform: translateX(1rem);
-    // transition: all 0.2s;
-}
-.open-in-maps:after {
-    content: url(../images/mobile/ico-map-marker-outline.svg);
-    margin-left: 10px;
-}
-
+// .contact-card__text {
+    .open-in-maps {
+        display: flex;
+        justify-content: left;
+        transform: translateX(0px);
+        transition: all 0.2s;
+    }
+    .open-in-maps:hover {
+        transform: translateX(1rem);
+        // transition: all 0.2s;
+    }
+    .open-in-maps:after {
+        content: url(../images/mobile/ico-map-marker-outline.svg);
+        margin-left: 10px;
+    }
+// }
 
 /* Main section | Cards */
 #cards {
@@ -496,7 +495,8 @@ main {
         align-items: center;
         transform: translateX(0px);
         transition: all 0.2s;
-    }    
+    }
+    
     a:hover {
         color: var(--color-white);
     }
@@ -564,6 +564,7 @@ main {
     flex-direction: column;
     width: 350px;
     height: 670px;
+    transition: all 0.3s;
     .divider {
         width: 350px;
     }
@@ -573,7 +574,8 @@ main {
     height: 130px;    
 }
 .card__exhibitions:hover {
-    text-shadow: 0px 4px 4px var(--color-black);    
+    text-shadow: 0px 4px 4px var(--color-black);
+    // opacity: 50%;
 }
 .card__vr-bottom {
     width: 350px;
@@ -581,7 +583,6 @@ main {
     justify-content: space-around;
     width: 350px;
 }
-
 .exhibitions__title {
     display: flex;
     position: relative;
@@ -612,12 +613,14 @@ main {
     justify-content: flex-start;
     width: 200px;
     p {
-        font-style: italic;        
+        font-style: italic;
+        // padding: 0.5rem 0 0 0.5rem;
         font-size: 1.20rem;
         line-height: 2rem;
         font-weight: 700;
         text-align: left;
         position: relative;
+        // top: -10px;
     }
 }
 .img__vr {
@@ -635,6 +638,7 @@ main {
 .img__medicine {
     background-image: url(../images/mobile/img-exhibitions-microscope.png);
 }
+
 .img__vr-bottom {
     background-image: url(../images/mobile/img-exhibitions-robot.jpg);
 }
@@ -684,7 +688,9 @@ footer {
         display: flex;
         align-items: center;
     }
-    
+    // a:hover {
+    //     color: var(--color-active-link);        
+    // }
 }
 #visit {
     .visit {
@@ -885,6 +891,7 @@ a:hover {
     .moon-divider:hover {
         transform: scale(1.2);
     }
+
     .passion-image {
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
         background-size: 690px 150px;
@@ -896,7 +903,8 @@ a:hover {
         max-width: 690px;
         max-height: 150px;
         transition: all 0.3s;
-    }    
+    }
+    
     .about-image {        
         background-image: url(../images/desktop/img-passion-about-page.jpg);        
     }

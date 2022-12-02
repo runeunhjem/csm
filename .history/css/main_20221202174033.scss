@@ -29,7 +29,8 @@
     background-image: url(../images/desktop/bg-orange-desktop.jpg);
 }
 #about {
-    background-image: url(../images/desktop/bg-red-desktop.jpg);    
+    background-image: url(../images/desktop/bg-red-desktop.jpg);
+    // background-image: url(../images/mobile/bg-red-mob.jpg);
 }
 #contact {
     background-image: url(../images/desktop/bg-lilac-desktop.jpg);
@@ -54,7 +55,8 @@
 }
 
 body {
-    background-color: var(--color-black);    
+    background-color: var(--color-black);
+    // background-image: url(../images/desktop/bg-orange-desktop.jpg);
     background-size: 100% 100%;
     font-family: 'Roboto', sans-serif;
     /* For Headers: */
