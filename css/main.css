@@ -335,6 +335,10 @@ main {
   background-image: url(../images/mobile/img-passion-exhibitions-page.jpg);
 }
 
+.events-image {
+  background-image: url(../images/mobile/img-passion-events-page.jpg);
+}
+
 .divider {
   background-image: url(../images/mobile/divider-light-purple-short.svg);
   height: 5px;
@@ -943,5 +947,8 @@ a:hover {
   }
   .exhibitions-image {
     background-image: url(../images/desktop/img-passion-exhibitions-page.jpg);
+  }
+  .events-image {
+    background-image: url(../images/desktop/img-passion-events-page.jpg);
   }
 }/*# sourceMappingURL=main.css.map */
