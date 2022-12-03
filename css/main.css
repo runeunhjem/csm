@@ -249,8 +249,6 @@ main {
 }
 
 .main__wrapper {
-  width: 345px;
-  max-width: 345px;
   margin-top: 1.5em;
   display: flex;
   flex-direction: column;
@@ -263,6 +261,32 @@ main {
   font-weight: 700;
   font-size: 2.25rem;
   text-align: center;
+}
+
+.title__wrapper {
+  display: block;
+  text-align: center;
+  width: 345px;
+}
+.title__wrapper h1 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.events__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1em;
+  min-width: 350px;
+  max-width: 1200px;
+  padding: 1em;
+}
+
+.cards, .events-image, .image__wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .image__wrapper {
@@ -461,9 +485,14 @@ main {
   flex-direction: column;
   margin: 1em auto;
   gap: 1em;
+  align-items: center;
 }
 #cards a:hover {
   transition: all 0.1s;
+}
+
+.cards-events {
+  height: 300px;
 }
 
 .cards-home__desktop {
@@ -472,7 +501,19 @@ main {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.cards-events__desktop {
+  width: 345px;
+  height: 260px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .cards-home__mobile {
+  width: 345px;
+  height: 130px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cards-events__mobile {
   width: 345px;
   height: 130px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -899,6 +940,9 @@ a:hover {
     width: 100%;
     background-image: url(../images/desktop/title-text__home.svg);
     background-size: 752px 183px;
+  }
+  .title__wrapper {
+    width: 100%;
   }
   .divider {
     background-image: url(../images/mobile/divider-light-purple.svg);
