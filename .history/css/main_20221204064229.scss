@@ -183,7 +183,7 @@ body {
     }
     .get-involved, .visit {        
         border-radius: 1em;
-        width: 96px;        
+        width: 95px;
         height: 24px;
         text-align: center;
         a {
@@ -365,10 +365,10 @@ main {
 }
 
 .about-infotext {
-    width: 100%;
-    padding: 0.5em;
+    width:
     p {
-        font-size: 1.25rem;        
+        font-size: 1.25rem;
+        padding: 2em;
     }
     p, h2, h3 {
         line-height: 1.35rem;

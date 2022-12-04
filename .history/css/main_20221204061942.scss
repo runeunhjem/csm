@@ -183,7 +183,7 @@ body {
     }
     .get-involved, .visit {        
         border-radius: 1em;
-        width: 96px;        
+        width: 95px;
         height: 24px;
         text-align: center;
         a {
@@ -365,10 +365,8 @@ main {
 }
 
 .about-infotext {
-    width: 100%;
-    padding: 0.5em;
     p {
-        font-size: 1.25rem;        
+        font-size: 1.25rem;
     }
     p, h2, h3 {
         line-height: 1.35rem;
@@ -746,12 +744,11 @@ footer {
     }
 }
 #getinvolved {
-    .get-involved {
-        opacity: 50%;
-        color: var(--color-white);
+    .getinvolved {
+        opacity: 60%;
         a {
             color: var(--color-white);
-            // opacity: 10%;
+            opacity: 80%;
             font-weight: 500;
         }
     }
@@ -959,8 +956,7 @@ a:hover {
         background-image: url(../images/desktop/img-passion-about-page.jpg);        
     }
     .about-infotext {
-        max-width: 768px;
-        // margin: 2em;
+        width: 768px;
     }
     .contact-image {        
         background-image: url(../images/desktop/img-passion-contact-page.jpg);
@@ -977,7 +973,7 @@ a:hover {
     .events-image {
         background-image: url(../images/desktop/img-passion-events-page.jpg);
     }
-    .get-involved-image {
+    .getinvolved-image {
         background-image: url(../images/desktop/img-passion-events-page.jpg);
     }
 }

@@ -189,7 +189,7 @@ body {
 }
 .navigation__top .get-involved, .navigation__top .visit, .navigation__footer .get-involved, .navigation__footer .visit {
   border-radius: 1em;
-  width: 95px;
+  width: 96px;
   height: 24px;
   text-align: center;
 }
@@ -363,6 +363,10 @@ main {
   background-image: url(../images/mobile/img-passion-events-page.jpg);
 }
 
+.getinvolved-image {
+  background-image: url(../images/mobile/img-passion-get-involved-page.jpg);
+}
+
 .divider {
   background-image: url(../images/mobile/divider-light-purple-short.svg);
   height: 5px;
@@ -370,6 +374,10 @@ main {
   margin: 1em auto;
 }
 
+.about-infotext {
+  width: 100%;
+  padding: 0.5em;
+}
 .about-infotext p {
   font-size: 1.25rem;
 }
@@ -773,12 +781,12 @@ footer {
   font-weight: 500;
 }
 
-#getinvolved .getinvolved {
-  opacity: 60%;
-}
-#getinvolved .getinvolved a {
+#getinvolved .get-involved {
+  opacity: 50%;
   color: var(--color-white);
-  opacity: 80%;
+}
+#getinvolved .get-involved a {
+  color: var(--color-white);
   font-weight: 500;
 }
 
@@ -978,7 +986,7 @@ a:hover {
     background-image: url(../images/desktop/img-passion-about-page.jpg);
   }
   .about-infotext {
-    width: 768px;
+    max-width: 768px;
   }
   .contact-image {
     background-image: url(../images/desktop/img-passion-contact-page.jpg);
@@ -993,6 +1001,9 @@ a:hover {
     background-image: url(../images/desktop/img-passion-exhibitions-page.jpg);
   }
   .events-image {
+    background-image: url(../images/desktop/img-passion-events-page.jpg);
+  }
+  .get-involved-image {
     background-image: url(../images/desktop/img-passion-events-page.jpg);
   }
 }/*# sourceMappingURL=main.css.map */
