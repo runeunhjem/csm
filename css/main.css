@@ -385,6 +385,9 @@ main {
   line-height: 1.35rem;
   padding: 1em 0 0 0.5em;
 }
+.about-infotext h2 {
+  letter-spacing: 0.02rem;
+}
 
 /* Main section | Contact Page */
 .contact__wrapper, .exhibition__wrapper {
