@@ -101,7 +101,6 @@ body {
     top: -55px;
     bottom: 5px;
     z-index: 100;
-    align-items: center;
 }
 
 .header-wrapper {
@@ -849,14 +848,15 @@ a:hover {
 @media screen and (min-width: 800px) {    
     .logo {
         position: absolute;
-        top: 14px;
+        top: 10px;
     }
     .container {        
         background-color: var(--color-black);
         position: sticky;
         height: 85px;
         top: 0px;
-        bottom: 5px;        
+        bottom: 5px;
+        
     }
     .navigation__top {
         .visit {

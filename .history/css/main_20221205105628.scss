@@ -101,7 +101,6 @@ body {
     top: -55px;
     bottom: 5px;
     z-index: 100;
-    align-items: center;
 }
 
 .header-wrapper {
@@ -389,7 +388,7 @@ main {
     display: flex;
     flex-wrap: wrap;    
     max-width: 800px;
-    margin: 0em auto;
+    margin: 1em auto;
     gap: 3em;
     align-items: center;
     justify-content: space-around;
@@ -849,14 +848,14 @@ a:hover {
 @media screen and (min-width: 800px) {    
     .logo {
         position: absolute;
-        top: 14px;
+        top: 10px;
     }
     .container {        
         background-color: var(--color-black);
         position: sticky;
-        height: 85px;
+        height: 75px;
         top: 0px;
-        bottom: 5px;        
+        bottom: 5px;
     }
     .navigation__top {
         .visit {
@@ -912,9 +911,9 @@ a:hover {
             display: flex;
             justify-content: space-between;
             width: 600px;
-            height: 40px;
+            height: 30px;
             margin-top: 2.4em;
-            // padding-bottom: 10px;
+            padding-bottom: 10px;
             border-bottom: 1px solid var(--color-white);
         }
     }
