@@ -7,6 +7,7 @@
 
 :root {
   --text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --text-shadow-hard: 0px 4px 4px rgba(0, 0, 0, 0.5);
   --box-shadow-cards: 0px 4px 4px rgba(0, 0, 0, 0.25);
   --color-cardbg-blue: #0052BD;
   --color-cardbg-orange: #A22A06;
@@ -281,7 +282,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 1em;
+  gap: 2em;
   min-width: 350px;
   max-width: 1200px;
   padding: 1em;
@@ -326,6 +327,12 @@ main {
   font-size: 1.5rem;
   color: var(--color-active-link);
   margin: 1.5em 0 0.5em 0;
+}
+
+.events-h4 {
+  margin-top: 0em;
+  width: 100%;
+  text-align: center;
 }
 
 .passion-image {
@@ -395,6 +402,9 @@ main {
 .about-infotext h2 {
   letter-spacing: 0.02rem;
 }
+.about-infotext p:hover {
+  text-shadow: var(--text-shadow-hard);
+}
 
 /* Main section | Contact Page */
 .contact__wrapper, .exhibition__wrapper {
@@ -405,6 +415,10 @@ main {
   gap: 3em;
   align-items: center;
   justify-content: space-around;
+}
+
+.visit__wrapper, .getinvolved__wrapper {
+  gap: 0;
 }
 
 .exhibition__wrapper {
@@ -510,6 +524,8 @@ main {
 }
 
 .cards-events {
+  display: flex;
+  align-items: flex-start;
   height: 300px;
 }
 
@@ -539,6 +555,11 @@ main {
 
 .cards-home__top {
   display: flex;
+}
+
+.cards-events__top {
+  display: flex;
+  margin-bottom: 1em;
 }
 
 .cards-home__image {
@@ -614,27 +635,83 @@ main {
   font-size: 1.2rem;
 }
 
+.cards-events__info {
+  margin-top: 6px;
+}
+
+.cinema {
+  height: 145px;
+}
+
+.cinema-home {
+  height: 130px;
+}
+
+.sleepover {
+  height: 160px;
+}
+
+.sleepover-home {
+  height: 130px;
+}
+
+.holiday-club {
+  height: 175px;
+}
+
+.holiday-club-home {
+  height: 130px;
+}
+
+.young-stars {
+  height: 150px;
+}
+
+.young-stars-home {
+  height: 130px;
+}
+
+.aeronautics {
+  height: 155px;
+}
+
+.energetica {
+  height: 225px;
+}
+
+.black-text {
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 0.8rem;
+  font-style: italic;
+  letter-spacing: 0.02rem;
+}
+
+.p-text {
+  margin-top: 1em;
+}
+
 .exhibitions {
   background-color: var(--color-cardbg-blue);
 }
 
-.holiday-club {
+.holiday-club, .holiday-club-home {
   background-color: var(--color-cardbg-orange);
 }
 
-.young-stars {
+.young-stars, .young-stars-home {
   background-color: var(--color-cardbg-purple);
 }
 
-.sleepover {
+.sleepover, .sleepover-home {
   background-color: var(--color-cardbg-green);
 }
 
-.cinema {
+.cinema, .cinema-home {
   background-color: var(--color-cardbg-darkblue);
 }
 
-.schools {
+.schools, .schools-home {
   background-color: var(--color-cardbg-yellow);
 }
 
@@ -756,6 +833,26 @@ main {
 
 .moon-divider {
   display: none;
+}
+
+.make-science-accesible {
+  display: flex;
+  margin: 1em auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+  background-image: url(../images/desktop/csm-logo.png);
+  background-size: 189px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100%;
 }
 
 /* Footer */
@@ -921,6 +1018,9 @@ a:hover {
     width: 100%;
     max-width: 1200px;
     gap: 1em;
+  }
+  .visit__wrapper, .getinvolved__wrapper, .explore__wrapper {
+    gap: 0;
   }
   #cards {
     max-width: 1200px;
