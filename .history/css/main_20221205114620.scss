@@ -549,7 +549,7 @@ main {
         height: 40px;
         align-items: center;
     }    
-    .learn-more, .events-subtitle {        
+    .learn-more {        
         font-size: 1.25rem;
         display: flex;
         justify-content: left;
@@ -569,7 +569,7 @@ main {
         position: relative;
         top: 4px;        
     }
-    .learn-more:hover, .events-subtitle:hover {
+    .learn-more:hover {
         transform: translateX(14px);
         transition: all 0.2s;
     }
@@ -619,7 +619,7 @@ main {
     background-color: var(--color-cardbg-yellow);
 }
 .aeronautics {
-    background-color: var(--color-aeronautics);
+    background-color: var(--color-aeaer);
 }
 .energetica {
     background-color: var(--color-energetica);

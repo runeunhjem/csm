@@ -569,7 +569,7 @@ main {
         position: relative;
         top: 4px;        
     }
-    .learn-more:hover, .events-subtitle:hover {
+    .learn-more:hover, .events-subtitle {
         transform: translateX(14px);
         transition: all 0.2s;
     }
