@@ -515,8 +515,8 @@ main {
 #cards {
   display: flex;
   flex-direction: column;
-  margin: 3em 0 0em 0;
-  gap: 3em;
+  margin: 1em 0 0em 0;
+  gap: 1em;
   align-items: center;
 }
 #cards a:hover {
