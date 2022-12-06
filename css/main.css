@@ -27,6 +27,10 @@
   --color-energetica: #9A1395;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 #index {
   background-image: url(../images/desktop/bg-orange-desktop.jpg);
 }
