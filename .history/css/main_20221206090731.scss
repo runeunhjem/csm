@@ -280,6 +280,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;    
     gap: 2em;
+    // min-width: 350px;
     max-width: 1200px;
     padding: 1em;
 }
@@ -513,6 +514,7 @@ main {
 .cards-home__mobile, .cards-events__mobile {
     height: 130px;
 }
+
 .cards-home__top {
     display: flex;
 }
@@ -599,8 +601,7 @@ main {
 .cinema {    
     height:145px;
 }
-.cinema-home, .sleepover-home,
-.holiday-club-home, .young-stars-home {    
+.cinema-home, .sleepover-home {    
     height:130px;
 }
 .sleepover {
@@ -609,14 +610,20 @@ main {
 .holiday-club {
     height:175px;
 }
+ {
+    height:130px;
+}
 .young-stars {
     height:150px;
+}
+.young-stars-home {
+    height:130px;
 }
 .aeronautics {
     height:155px;
 }
 .energetica {
-    height:235px;
+    height:225px;
 }
 
 .black-text {

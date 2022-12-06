@@ -532,28 +532,18 @@ main {
   height: 300px;
 }
 
-.cards-home__desktop {
-  width: 345px;
-  height: 260px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.cards-events__desktop {
-  width: 345px;
-  height: 260px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.cards-home__mobile {
-  width: 345px;
-  height: 130px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
+.cards-home__desktop, .cards-events__desktop .cards-home__mobile,
 .cards-events__mobile {
   width: 345px;
-  height: 130px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cards-home__desktop, .cards-events__desktop {
+  height: 260px;
+}
+
+.cards-home__mobile, .cards-events__mobile {
+  height: 130px;
 }
 
 .cards-home__top {
@@ -646,7 +636,8 @@ main {
   height: 145px;
 }
 
-.cinema-home {
+.cinema-home, .sleepover-home,
+.holiday-club-home, .young-stars-home {
   height: 130px;
 }
 
@@ -654,24 +645,12 @@ main {
   height: 160px;
 }
 
-.sleepover-home {
-  height: 130px;
-}
-
 .holiday-club {
   height: 175px;
 }
 
-.holiday-club-home {
-  height: 130px;
-}
-
 .young-stars {
   height: 150px;
-}
-
-.young-stars-home {
-  height: 130px;
 }
 
 .aeronautics {
@@ -679,7 +658,7 @@ main {
 }
 
 .energetica {
-  height: 225px;
+  height: 235px;
 }
 
 .black-text {

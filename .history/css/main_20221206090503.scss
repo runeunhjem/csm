@@ -280,6 +280,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;    
     gap: 2em;
+    // min-width: 350px;
     max-width: 1200px;
     padding: 1em;
 }
@@ -507,12 +508,20 @@ main {
     width: 345px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.cards-home__desktop, .cards-events__desktop {    
+.cards-home__desktop {    
     height: 260px;
 }
-.cards-home__mobile, .cards-events__mobile {
+.cards-events__desktop {
+    height: 260px;
+}
+.cards-home__mobile {
     height: 130px;
 }
+.cards-events__mobile {
+    height: 130px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+}
+
 .cards-home__top {
     display: flex;
 }
@@ -599,24 +608,32 @@ main {
 .cinema {    
     height:145px;
 }
-.cinema-home, .sleepover-home,
-.holiday-club-home, .young-stars-home {    
+.cinema-home {    
     height:130px;
 }
 .sleepover {
     height:160px;
 }
+.sleepover-home {
+    height:130px;
+}
 .holiday-club {
     height:175px;
 }
+.holiday-club-home {
+    height:130px;
+}
 .young-stars {
     height:150px;
+}
+.young-stars-home {
+    height:130px;
 }
 .aeronautics {
     height:155px;
 }
 .energetica {
-    height:235px;
+    height:225px;
 }
 
 .black-text {
