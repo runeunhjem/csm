@@ -418,7 +418,7 @@ main {
 }
 
 .visit__wrapper, .getinvolved__wrapper {
-  gap: 0;
+  gap: 1em;
 }
 
 .exhibition__wrapper {
