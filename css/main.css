@@ -515,7 +515,7 @@ main {
 #cards {
   display: flex;
   flex-direction: column;
-  margin: 1em 0 0em 0;
+  margin: 1.5em 0 0em 0;
   gap: 1em;
   align-items: center;
 }
