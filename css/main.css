@@ -1010,9 +1010,6 @@ a:hover {
     max-width: 1200px;
     gap: 1em;
   }
-  .visit__wrapper, .getinvolved__wrapper, .explore__wrapper {
-    gap: 0;
-  }
   #cards {
     max-width: 1200px;
     flex-direction: row;
