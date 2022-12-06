@@ -855,6 +855,10 @@ main {
   width: 100%;
 }
 
+.events-logo-bottom {
+  margin-top: 3em;
+}
+
 /* Footer */
 footer {
   margin-top: 2em;
