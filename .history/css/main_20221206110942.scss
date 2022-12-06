@@ -18,7 +18,7 @@
     --color-cardbg-green: #26631D;
     --color-cardbg-darkblue: #245E7F;
     --color-cardbg-yellow: #725409;
-    --color-active-link: #C574F6;
+    --color-active-link: #C574F6;involved
     --color-buttonbg: #922FDF;    
     --color-dividers: #A790CF;
     --color-white: #FFFFFF;
@@ -181,21 +181,19 @@ body {
     }
     .visit {
         position: absolute;
-        right: 112px;
+        right: 110px;
         top: 15px;
-        width: 85px;
         background-color: var(--color-cardbg-blue);
     }    
     .get-involved {
         position: absolute;
         right: 10px;
         top: 15px;
-        width: 97px;
         background-color: var(--color-buttonbg);
     }
     .get-involved, .visit {        
         border-radius: 1em;
-        // width: 96px;
+        width: 96px;        
         height: 24px;
         text-align: center;
         a {
