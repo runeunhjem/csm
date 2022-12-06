@@ -48,7 +48,7 @@
 }
 
 #events {
-  background-image: url(../images/desktop/bg-purpleish-desktop.jpg);
+  background-image: url(../images/mobile/bg-purpleish-mob.jpg);
 }
 
 #explore {
@@ -283,7 +283,6 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 2em;
-  min-width: 350px;
   max-width: 1200px;
   padding: 1em;
 }

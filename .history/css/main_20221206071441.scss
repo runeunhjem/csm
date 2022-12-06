@@ -27,7 +27,9 @@
     --color-aeronautics: #9A5C13;
     --color-energetica: #9A1395;
 }
-
+html {
+    overflow: hidden
+}
 
 #index {
     background-image: url(../images/desktop/bg-orange-desktop.jpg);
@@ -45,7 +47,7 @@
     background-image: url(../images/desktop/bg-lilac-desktop.jpg);
 }
 #events {
-    background-image: url(../images/mobile/bg-purpleish-mob.jpg);
+    background-image: url(../images/desktop/bg-purpleish-desktop.jpg);
 }
 #explore {
     background-image: url(../images/desktop/bg-lilacish-desktop.jpg);
@@ -277,7 +279,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;    
     gap: 2em;
-    // min-width: 350px;
+    min-width: 350px;
     max-width: 1200px;
     padding: 1em;
 }
