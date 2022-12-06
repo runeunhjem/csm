@@ -35,31 +35,31 @@ html {
 }
 
 #index {
-    background-image: url(../images/desktop/bg-orange-desktop.jpg);
+    background-image: url(../images/desktop/bg-orange-desktop.webp);
 }
 #about {
-    background-image: url(../images/desktop/bg-red-desktop.jpg);    
+    background-image: url(../images/desktop/bg-red-desktop.webp);    
 }
 #contact {
-    background-image: url(../images/desktop/bg-greenish-desktop.jpg);
+    background-image: url(../images/desktop/bg-greenish-desktop.webp);
 }
 #schools {
-    background-image: url(../images/desktop/bg-brown-desktop.jpg);
+    background-image: url(../images/desktop/bg-brown-desktop.webp);
 }
 #exhibitions {
-    background-image: url(../images/desktop/bg-lilac-desktop.jpg);
+    background-image: url(../images/desktop/bg-lilac-desktop.webp);
 }
 #events {
-    background-image: url(../images/mobile/bg-purpleish-mob.jpg);
+    background-image: url(../images/mobile/bg-purpleish-mob.webp);
 }
 #explore {
-    background-image: url(../images/desktop/bg-lilacish-desktop.jpg);
+    background-image: url(../images/desktop/bg-lilacish-desktop.webp);
 }
 #visit {
-    background-image: url(../images/desktop/bg-blue-desktop.jpg);
+    background-image: url(../images/desktop/bg-blue-desktop.webp);
 }
 #getinvolved {
-    background-image: url(../images/desktop/bg-purple-desktop.jpg);
+    background-image: url(../images/desktop/bg-purple-desktop.webp);
 }
 
 body {
@@ -343,28 +343,28 @@ main {
 }
 
 .about-image {
-    background-image: url(../images/mobile/img-passion-about-page.jpg);
+    background-image: url(../images/mobile/img-passion-about-page.webp);
 }
 .contact-image {
-    background-image: url(../images/mobile/img-passion-contact-page.jpg);
+    background-image: url(../images/mobile/img-passion-contact-page.webp);
 }
 .schools-image {
-    background-image: url(../images/mobile/img-passion-schools-page.jpg);
+    background-image: url(../images/mobile/img-passion-schools-page.webp);
 }
 .visit-image {
-    background-image: url(../images/mobile/img-passion-visit-page.jpg);
+    background-image: url(../images/mobile/img-passion-visit-page.webp);
 }
 .exhibitions-image {
-    background-image: url(../images/mobile/img-passion-exhibitions-page.jpg);
+    background-image: url(../images/mobile/img-passion-exhibitions-page.webp);
 }
 .events-image {
-    background-image: url(../images/mobile/img-passion-events-page.jpg);
+    background-image: url(../images/mobile/img-passion-events-page.webp);
 }
 .getinvolved-image {
-    background-image: url(../images/mobile/img-passion-get-involved-page.jpg);
+    background-image: url(../images/mobile/img-passion-get-involved-page.webp);
 }
 .explore-image {
-    background-image: url(../images/mobile/img-passion-explore-page.jpg);
+    background-image: url(../images/mobile/img-passion-explore-page.webp);
 }
 
 .divider {
@@ -739,19 +739,19 @@ main {
     background-image: url(../images/mobile/img-exhibitions-microscope.png);
 }
 .img__vr-bottom {
-    background-image: url(../images/mobile/img-exhibitions-robot.jpg);
+    background-image: url(../images/mobile/img-exhibitions-robot.webp);
 }
 .img__space-bottom {
-    background-image: url(../images/mobile/img-exhibitions-astronaut.jpg);
+    background-image: url(../images/mobile/img-exhibitions-astronaut.webp);
 }
 .img__dino-bottom {
-    background-image: url(../images/mobile/img-exhibitions-dino.jpg);
+    background-image: url(../images/mobile/img-exhibitions-dino.webp);
 }
 .img__eco-bottom {
-    background-image: url(../images/mobile/img-exhibitions-windmills.jpg);
+    background-image: url(../images/mobile/img-exhibitions-windmills.webp);
 }
 .img__medicine-bottom {
-    background-image: url(../images/mobile/img-exhibitions-eye.jpg);
+    background-image: url(../images/mobile/img-exhibitions-eye.webp);
 }
 .moon-divider {
     display: none;
@@ -1007,7 +1007,7 @@ a:hover {
         height: 105px;
         width: 768px;
         max-width: 700px;
-        background-image: url(../images/desktop/moon.jpg);
+        background-image: url(../images/desktop/moon.webp);
         background-size: 100%;
         background-repeat: no-repeat;
         transition: all 0.3s;
@@ -1028,30 +1028,30 @@ a:hover {
         transition: all 0.3s;
     }    
     .about-image {        
-        background-image: url(../images/desktop/img-passion-about-page.jpg);        
+        background-image: url(../images/desktop/img-passion-about-page.webp);        
     }
     .about-infotext {
         max-width: 768px;
     }
     .contact-image {        
-        background-image: url(../images/desktop/img-passion-contact-page.jpg);
+        background-image: url(../images/desktop/img-passion-contact-page.webp);
     }
     .schools-image {
-        background-image: url(../images/desktop/img-passion-schools-page.jpg);
+        background-image: url(../images/desktop/img-passion-schools-page.webp);
     }
     .visit-image {
-        background-image: url(../images/desktop/img-passion-visit-page.jpg);
+        background-image: url(../images/desktop/img-passion-visit-page.webp);
     }
     .exhibitions-image {
-        background-image: url(../images/desktop/img-passion-exhibitions-page.jpg);
+        background-image: url(../images/desktop/img-passion-exhibitions-page.webp);
     }
     .events-image {
-        background-image: url(../images/desktop/img-passion-events-page.jpg);
+        background-image: url(../images/desktop/img-passion-events-page.webp);
     }
     .get-involved-image {
-        background-image: url(../images/desktop/img-passion-get-involved-page.jpg);
+        background-image: url(../images/desktop/img-passion-get-involved-page.webp);
     }
     .explore-image {
-        background-image: url(../images/desktop/img-passion-explore-page.jpg);
+        background-image: url(../images/desktop/img-passion-explore-page.webp);
     }
 }
